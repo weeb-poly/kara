@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Rensselaer Polytechnic Institute"
+    },
+    "modified_at": "2021-05-24T01:15:44.976Z",
+    "name": "Rensselaer Polytechnic Institute",
+    "repository": "kara.wpi.moe",
+    "tid": "df2a9f87-76ec-44ab-9fb9-690f6cf30be2",
+    "types": [
+      "series"
+    ]
+  }
+}

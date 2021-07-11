@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Kino Hiko"
+    },
+    "modified_at": "2021-05-25T02:29:02.005Z",
+    "name": "Kino Hiko",
+    "repository": "kara.wpi.moe",
+    "tid": "c7416001-2240-49af-ae1c-f5391b4b76cf",
+    "types": [
+      "songwriters"
+    ]
+  }
+}

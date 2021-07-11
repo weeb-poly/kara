@@ -1,0 +1,20 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Furigana",
+      "jpn": "振り仮名"
+    },
+    "modified_at": "2021-07-11T21:50:26.245Z",
+    "name": "Furigana",
+    "repository": "kara.wpi.moe",
+    "short": "ふり",
+    "tid": "df4905df-fc4b-4594-a0bd-5aa00d5de529",
+    "types": [
+      "misc"
+    ]
+  }
+}

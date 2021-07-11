@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Bea Miller"
+    },
+    "modified_at": "2021-07-11T03:43:38.408Z",
+    "name": "Bea Miller",
+    "repository": "kara.wpi.moe",
+    "tid": "36bff4ff-c44a-4a02-a3c8-d9076667b97b",
+    "types": [
+      "singers"
+    ]
+  }
+}

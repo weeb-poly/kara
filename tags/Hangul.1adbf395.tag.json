@@ -1,0 +1,20 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Hangul",
+      "kor": "한글"
+    },
+    "modified_at": "2021-07-11T21:17:55.232Z",
+    "name": "Hangul",
+    "repository": "kara.wpi.moe",
+    "short": "한글",
+    "tid": "1adbf395-31af-4e44-88a4-2b73d4b6bdab",
+    "types": [
+      "misc"
+    ]
+  }
+}

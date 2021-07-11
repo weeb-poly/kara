@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Studio DEEN"
+    },
+    "modified_at": "2020-03-31T19:04:37.737Z",
+    "name": "Studio DEEN",
+    "repository": "kara.wpi.moe",
+    "tid": "2bf7a71d-d3fc-42ba-8aa0-a94d7ca3888c",
+    "types": [
+      "creators"
+    ]
+  }
+}

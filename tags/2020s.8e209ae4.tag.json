@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "2020s"
+    },
+    "modified_at": "2021-05-14T02:32:23.169Z",
+    "name": "2020s",
+    "repository": "kara.wpi.moe",
+    "tid": "8e209ae4-4381-438f-89dc-1b21752027d2",
+    "types": [
+      "groups"
+    ]
+  }
+}

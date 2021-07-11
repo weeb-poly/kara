@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Wolftyla"
+    },
+    "modified_at": "2021-07-11T03:43:38.723Z",
+    "name": "Wolftyla",
+    "repository": "kara.wpi.moe",
+    "tid": "c5478e8a-fede-4ecb-99a3-26ddc8f44eb9",
+    "types": [
+      "singers"
+    ]
+  }
+}

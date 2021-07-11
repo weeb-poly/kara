@@ -1,0 +1,23 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Reprise"
+    ],
+    "i18n": {
+      "eng": "Cover"
+    },
+    "modified_at": "2021-05-02T09:55:02.322Z",
+    "name": "Cover",
+    "repository": "kara.wpi.moe",
+    "short": "COV",
+    "tid": "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c",
+    "types": [
+      "versions",
+      "misc"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Isekai"
+    },
+    "modified_at": "2020-09-23T19:26:19.956Z",
+    "name": "Isekai",
+    "repository": "kara.wpi.moe",
+    "short": "ISK",
+    "tid": "4b80eca6-f44f-4262-a8d0-b6879d6b70cb",
+    "types": [
+      "genres"
+    ]
+  }
+}

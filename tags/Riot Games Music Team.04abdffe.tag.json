@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Riot Games Music Team"
+    },
+    "modified_at": "2020-03-31T19:04:37.130Z",
+    "name": "Riot Games Music Team",
+    "repository": "kara.wpi.moe",
+    "tid": "04abdffe-8b06-4350-b521-8a5789a75890",
+    "types": [
+      "songwriters"
+    ]
+  }
+}
