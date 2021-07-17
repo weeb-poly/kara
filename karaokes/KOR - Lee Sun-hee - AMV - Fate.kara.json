@@ -1,0 +1,53 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "version": "Default",
+      "filename": "KOR - Lee Sun-hee - AMV - Fate.mp4",
+      "audiogain": -9.77,
+      "loudnorm": "-7.98,2.44,8.30,-18.18,-1.30",
+      "filesize": 41351471,
+      "duration": 263,
+      "default": true,
+      "lyrics": [
+        {
+          "filename": "KOR - Lee Sun-hee - AMV - Fate.ass",
+          "default": true,
+          "version": "Default",
+          "subchecksum": "b3e27de88b39a7d98c569a4cd9a8c32d"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "created_at": "2021-07-16T21:50:46.095Z",
+    "kid": "122029c5-8f4a-4a9f-b338-179b14c1a5c3",
+    "modified_at": "2021-07-16T21:54:35.878Z",
+    "repository": "kara.wpi.moe",
+    "tags": {
+      "authors": [
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "groups": [
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "3b9e2749-27d0-4a78-873d-ea91a9ee9a25"
+      ],
+      "misc": [
+        "1adbf395-31af-4e44-88a4-2b73d4b6bdab"
+      ],
+      "singers": [
+        "ec41f77f-7919-48de-86d2-86e05eac2280"
+      ],
+      "songtypes": [
+        "a6c79ce5-89ee-4d50-afe8-3abd7317f6c2"
+      ]
+    },
+    "title": "Fate",
+    "year": 2010
+  }
+}
