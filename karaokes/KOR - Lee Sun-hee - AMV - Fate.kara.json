@@ -7,9 +7,9 @@
     {
       "version": "Default",
       "filename": "KOR - Lee Sun-hee - AMV - Fate.mp4",
-      "audiogain": -9.77,
-      "loudnorm": "-7.98,2.44,8.30,-18.18,-1.30",
-      "filesize": 41351471,
+      "audiogain": -10.65,
+      "loudnorm": "-7.42,2.52,9.10,-17.66,-1.38",
+      "filesize": 34755211,
       "duration": 263,
       "default": true,
       "lyrics": [
@@ -17,7 +17,7 @@
           "filename": "KOR - Lee Sun-hee - AMV - Fate.ass",
           "default": true,
           "version": "Default",
-          "subchecksum": "b3e27de88b39a7d98c569a4cd9a8c32d"
+          "subchecksum": "3b7de91c3d74b77b94638da79ff9c74a"
         }
       ]
     }
@@ -25,7 +25,7 @@
   "data": {
     "created_at": "2021-07-16T21:50:46.095Z",
     "kid": "122029c5-8f4a-4a9f-b338-179b14c1a5c3",
-    "modified_at": "2021-07-16T21:54:35.878Z",
+    "modified_at": "2021-07-23T06:36:31.637Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
