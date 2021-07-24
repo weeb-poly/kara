@@ -1,0 +1,65 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "version": "Default",
+      "filename": "JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME IN - Step!.mp4",
+      "audiogain": -5.14,
+      "loudnorm": "-12.14,-0.41,2.00,-22.17,-0.36",
+      "filesize": 97825467,
+      "duration": 133,
+      "default": true,
+      "lyrics": [
+        {
+          "filename": "JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME IN - Step!.ass",
+          "default": true,
+          "version": "Default",
+          "subchecksum": "d86cb00cffa54e09939fddc1ca8a9f2f"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "created_at": "2021-07-24T21:33:54.378Z",
+    "kid": "e9a54f65-635d-4458-9dfc-add9c5fdf347",
+    "modified_at": "2021-07-24T21:40:58.145Z",
+    "repository": "kara.wpi.moe",
+    "tags": {
+      "authors": [
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "creators": [
+        "c3e622d4-2686-4331-8691-d528c8647088"
+      ],
+      "families": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
+      ],
+      "genres": [
+        "caa86df2-0d59-474b-885c-f240a9e891b0"
+      ],
+      "groups": [
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "platforms": [
+        "213a1a15-e73a-4a08-b3f6-b6e2745a82e5"
+      ],
+      "series": [
+        "046b28b1-ac52-4622-92bb-523a8792be86"
+      ],
+      "singers": [
+        "d73946db-0a7e-4845-b00b-2ece8ddfddd8"
+      ],
+      "songtypes": [
+        "5e5250d9-351a-4a82-98eb-55db50ad8962"
+      ]
+    },
+    "title": "Step!",
+    "year": 2016
+  }
+}

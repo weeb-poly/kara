@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Idol"
+    },
+    "modified_at": "2020-03-31T19:04:34.933Z",
+    "name": "Idol",
+    "repository": "kara.wpi.moe",
+    "short": "IDL",
+    "tid": "caa86df2-0d59-474b-885c-f240a9e891b0",
+    "types": [
+      "genres"
+    ]
+  }
+}
