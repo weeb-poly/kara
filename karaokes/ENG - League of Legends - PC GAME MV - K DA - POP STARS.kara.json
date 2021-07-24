@@ -6,7 +6,7 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "KOR - League of Legends - PC GAME MV - K DA - POP STARS.mp4",
+      "filename": "ENG - League of Legends - PC GAME MV - K DA - POP STARS.mp4",
       "audiogain": -8.64,
       "loudnorm": "-7.72,1.36,7.50,-18.02,-0.91",
       "filesize": 64434198,
@@ -14,7 +14,7 @@
       "default": true,
       "lyrics": [
         {
-          "filename": "KOR - League of Legends - PC GAME MV - K DA - POP STARS.ass",
+          "filename": "ENG - League of Legends - PC GAME MV - K DA - POP STARS.ass",
           "default": true,
           "version": "Default",
           "subchecksum": "d5b3e2ba88a965f99c576a8c31c98dcc"
@@ -25,7 +25,7 @@
   "data": {
     "created_at": "2018-11-07T20:44:18.000Z",
     "kid": "d8e974c6-313e-46ff-b563-e9838ccfdc82",
-    "modified_at": "2021-07-16T22:53:17.691Z",
+    "modified_at": "2021-07-24T21:07:04.387Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
