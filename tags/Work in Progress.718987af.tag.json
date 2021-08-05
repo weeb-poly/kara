@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Work in Progress"
+    },
+    "modified_at": "2021-08-03T22:35:24.183Z",
+    "name": "Work in Progress",
+    "repository": "kara.wpi.moe",
+    "short": "WIP",
+    "tid": "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
+    "types": [
+      "misc"
+    ]
+  }
+}
