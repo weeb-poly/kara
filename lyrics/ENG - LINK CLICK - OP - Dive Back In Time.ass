@@ -18,43 +18,43 @@ Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:04.10,0:00:06.56,Sample KM [Up],,0,0,0,karaoke,{\k25}It {\k31}did{\k27}n't {\k30}take {\k27}too {\k28}long {\k16}to {\k11}re{\k11}a{\k40}lize
-Comment: 0,0:00:06.56,0:00:09.37,Sample KM [Up],,0,0,0,karaoke,{\k32}Some{\k27}thing {\k24}has {\k31}changed {\k30}in {\k9}the {\k31}back {\k16}of {\k18}my {\k63}mind
-Comment: 0,0:00:09.65,0:00:10.75,Sample KM [Up],,0,0,0,karaoke,{\k32}Your {\k78}eyes
-Comment: 0,0:00:10.90,0:00:13.20,Sample KM [Up],,0,0,0,karaoke,{\k10}There {\k34}ain't {\k14}no{\k27}where {\k25}left {\k16}to {\k27}hide {\k23}be{\k54}hind
-Comment: 0,0:00:13.20,0:00:15.48,Sample KM [Up],,0,0,0,karaoke,{\k35}Time {\k27}no {\k26}lon{\k16}ger {\k41}flew {\k14}like {\k21}it {\k48}was
-Comment: 0,0:00:15.48,0:00:18.45,Sample KM [Up],,0,0,0,karaoke,{\k28}When {\k23}the {\k32}flash {\k33}froze {\k25}ev{\k18}ery{\k24}thing {\k21}be{\k93}fore
-Comment: 0,0:00:18.54,0:00:19.49,Sample KM [Up],,0,0,0,karaoke,{\k16}With{\k34}out {\k45}you
-Comment: 0,0:00:19.65,0:00:21.90,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k16}don't {\k23}know {\k24}if {\k15}I {\k30}could {\k39}take {\k24}this {\k37}road
-Comment: 0,0:00:22.40,0:00:24.80,Sample KM [Up],,0,0,0,karaoke,{\k32}and {\k27}I'm {\k25}a{\k26}bout {\k18}to {\k29}lose {\k33}my {\k50}mind
-Comment: 0,0:00:24.70,0:00:26.70,Sample KM [Up],,0,0,0,karaoke,{\k9}E{\k15}very {\k13}mi{\k14}nute {\k12}that {\k12}I {\k31}dialed {\k17}back {\k25}in {\k52}time
-Comment: 0,0:00:26.80,0:00:28.90,Sample KM [Up],,0,0,0,karaoke,{\k20}E{\k7}very {\k20}sin{\k16}gle {\k16}e{\k26}xis{\k23}tence {\k37}re{\k45}winds
-Comment: 0,0:00:29.08,0:00:31.00,Sample KM [Up],,0,0,0,karaoke,{\k17}Some{\k9}thing {\k16}se{\k17}cre{\k22}tive {\k31}hi{\k18}dden {\k15}in{\k47}side
-Comment: 0,0:00:31.02,0:00:33.26,Sample KM [Up],,0,0,0,karaoke,{\kf109}Your {\kf115}mind
-Comment: 0,0:00:33.55,0:00:35.75,Sample KM [Up],,0,0,0,karaoke,{\k15}All {\k12}the {\k19}heart{\k12}aches {\k10}and {\k17}the {\k32}smiles {\k12}ne{\k13}ver {\k34}fa{\k44}ded
-Comment: 0,0:00:35.75,0:00:38.00,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k10}know {\k18}you'll {\k11}be {\k11}by {\k9}my {\k35}side {\k22}when {\k23}we {\k27}make {\k42}it
-Comment: 0,0:00:38.50,0:00:40.50,Sample KM [Up],,0,0,0,karaoke,{\k31}Come {\k42}back {\k41}from {\k30}the {\k56}dive
-Comment: 0,0:00:41.09,0:00:42.75,Sample KM [Up],,0,0,0,karaoke,{\k54}back {\k48}in {\k64}time
-Comment: 0,0:00:45.17,0:00:47.22,Sample KM [Up],,0,0,0,karaoke,{\k29}Dive {\k56}back {\k47}in {\k73}time
-Comment: 0,0:00:49.60,0:00:51.65,Sample KM [Up],,0,0,0,karaoke,{\k33}Dive {\k52}back {\k55}in {\k65}time
-Comment: 0,0:00:54.10,0:00:56.15,Sample KM [Up],,0,0,0,karaoke,{\k27}Dive {\k53}back {\k55}in {\k70}time
-Dialogue: 0,0:00:03.20,0:00:06.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}It {\k31}did{\k27}n't {\k30}take {\k27}too {\k28}long {\k16}to {\k11}re{\k11}a{\k40}lize
-Dialogue: 0,0:00:05.66,0:00:09.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Some{\k27}thing {\k24}has {\k31}changed {\k30}in {\k9}the {\k31}back {\k16}of {\k18}my {\k63}mind
-Dialogue: 0,0:00:08.75,0:00:10.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Your {\k78}eyes
-Dialogue: 0,0:00:10.00,0:00:13.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}There {\k34}ain't {\k14}no{\k27}where {\k25}left {\k16}to {\k27}hide {\k23}be{\k54}hind
-Dialogue: 0,0:00:12.30,0:00:15.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Time {\k27}no {\k26}lon{\k16}ger {\k41}flew {\k14}like {\k21}it {\k48}was
-Dialogue: 0,0:00:14.58,0:00:18.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}When {\k23}the {\k32}flash {\k33}froze {\k25}ev{\k18}ery{\k24}thing {\k21}be{\k93}fore
-Dialogue: 0,0:00:17.64,0:00:19.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}With{\k34}out {\k45}you
-Dialogue: 0,0:00:18.75,0:00:22.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k16}don't {\k23}know {\k24}if {\k15}I {\k30}could {\k39}take {\k24}this {\k37}road
-Dialogue: 0,0:00:21.50,0:00:25.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}and {\k27}I'm {\k25}a{\k26}bout {\k18}to {\k29}lose {\k33}my {\k50}mind
-Dialogue: 0,0:00:23.80,0:00:26.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}E{\k15}very {\k13}mi{\k14}nute {\k12}that {\k12}I {\k31}dialed {\k17}back {\k25}in {\k52}time
-Dialogue: 0,0:00:25.90,0:00:29.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}E{\k7}very {\k20}sin{\k16}gle {\k16}e{\k26}xis{\k23}tence {\k37}re{\k45}winds
-Dialogue: 0,0:00:28.18,0:00:31.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Some{\k9}thing {\k16}se{\k17}cre{\k22}tive {\k31}hi{\k18}dden {\k15}in{\k47}side
-Dialogue: 0,0:00:30.12,0:00:33.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf109}Your {\kf115}mind
-Dialogue: 0,0:00:32.65,0:00:35.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}All {\k12}the {\k19}heart{\k12}aches {\k10}and {\k17}the {\k32}smiles {\k12}ne{\k13}ver {\k34}fa{\k44}ded
-Dialogue: 0,0:00:34.85,0:00:38.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k10}know {\k18}you'll {\k11}be {\k11}by {\k9}my {\k35}side {\k22}when {\k23}we {\k27}make {\k42}it
-Dialogue: 0,0:00:37.60,0:00:40.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Come {\k42}back {\k41}from {\k30}the {\k56}dive
-Dialogue: 0,0:00:40.19,0:00:42.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}back {\k48}in {\k64}time
-Dialogue: 0,0:00:44.27,0:00:47.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Dive {\k56}back {\k47}in {\k73}time
-Dialogue: 0,0:00:48.70,0:00:51.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Dive {\k52}back {\k55}in {\k65}time
-Dialogue: 0,0:00:53.20,0:00:56.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dive {\k53}back {\k55}in {\k70}time
+Comment: 0,0:00:01.14,0:00:03.60,Sample KM [Up],,0,0,0,karaoke,{\k25}It {\k31}did{\k27}n't {\k30}take {\k27}too {\k28}long {\k16}to {\k11}re{\k11}a{\k40}lize
+Comment: 0,0:00:03.60,0:00:06.41,Sample KM [Up],,0,0,0,karaoke,{\k32}Some{\k27}thing {\k24}has {\k31}changed {\k30}in {\k9}the {\k31}back {\k16}of {\k18}my {\k63}mind
+Comment: 0,0:00:06.69,0:00:07.79,Sample KM [Up],,0,0,0,karaoke,{\k32}Your {\k78}eyes
+Comment: 0,0:00:07.94,0:00:10.24,Sample KM [Up],,0,0,0,karaoke,{\k10}There {\k34}ain't {\k14}no{\k27}where {\k25}left {\k16}to {\k27}hide {\k23}be{\k54}hind
+Comment: 0,0:00:10.24,0:00:12.52,Sample KM [Up],,0,0,0,karaoke,{\k35}Time {\k27}no {\k26}lon{\k16}ger {\k41}flew {\k14}like {\k21}it {\k48}was
+Comment: 0,0:00:12.52,0:00:15.49,Sample KM [Up],,0,0,0,karaoke,{\k28}When {\k23}the {\k32}flash {\k33}froze {\k25}ev{\k18}ery{\k24}thing {\k21}be{\k93}fore
+Comment: 0,0:00:15.58,0:00:16.53,Sample KM [Up],,0,0,0,karaoke,{\k16}With{\k34}out {\k45}you
+Comment: 0,0:00:16.69,0:00:18.94,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k16}don't {\k23}know {\k24}if {\k15}I {\k30}could {\k39}take {\k24}this {\k37}road
+Comment: 0,0:00:19.44,0:00:21.84,Sample KM [Up],,0,0,0,karaoke,{\k32}and {\k27}I'm {\k25}a{\k26}bout {\k18}to {\k29}lose {\k33}my {\k50}mind
+Comment: 0,0:00:21.74,0:00:23.74,Sample KM [Up],,0,0,0,karaoke,{\k9}E{\k15}very {\k13}mi{\k14}nute {\k12}that {\k12}I {\k31}dialed {\k17}back {\k25}in {\k52}time
+Comment: 0,0:00:23.84,0:00:25.94,Sample KM [Up],,0,0,0,karaoke,{\k20}E{\k7}very {\k20}sin{\k16}gle {\k16}e{\k26}xis{\k23}tence {\k37}re{\k45}winds
+Comment: 0,0:00:26.12,0:00:28.04,Sample KM [Up],,0,0,0,karaoke,{\k17}Some{\k9}thing {\k16}se{\k17}cre{\k22}tive {\k31}hi{\k18}dden {\k15}in{\k47}side
+Comment: 0,0:00:28.06,0:00:30.30,Sample KM [Up],,0,0,0,karaoke,{\kf109}Your {\kf115}mind
+Comment: 0,0:00:30.59,0:00:32.79,Sample KM [Up],,0,0,0,karaoke,{\k15}All {\k12}the {\k19}heart{\k12}aches {\k10}and {\k17}the {\k32}smiles {\k12}ne{\k13}ver {\k34}fa{\k44}ded
+Comment: 0,0:00:32.79,0:00:35.04,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k10}know {\k18}you'll {\k11}be {\k11}by {\k9}my {\k35}side {\k22}when {\k23}we {\k27}make {\k42}it
+Comment: 0,0:00:35.54,0:00:37.54,Sample KM [Up],,0,0,0,karaoke,{\k31}Come {\k42}back {\k41}from {\k30}the {\k56}dive
+Comment: 0,0:00:38.13,0:00:39.79,Sample KM [Up],,0,0,0,karaoke,{\k54}back {\k48}in {\k64}time
+Comment: 0,0:00:42.21,0:00:44.26,Sample KM [Up],,0,0,0,karaoke,{\k29}Dive {\k56}back {\k47}in {\k73}time
+Comment: 0,0:00:46.64,0:00:48.69,Sample KM [Up],,0,0,0,karaoke,{\k33}Dive {\k52}back {\k55}in {\k65}time
+Comment: 0,0:00:51.14,0:00:53.19,Sample KM [Up],,0,0,0,karaoke,{\k27}Dive {\k53}back {\k55}in {\k70}time
+Dialogue: 0,0:00:00.24,0:00:03.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}It {\k31}did{\k27}n't {\k30}take {\k27}too {\k28}long {\k16}to {\k11}re{\k11}a{\k40}lize
+Dialogue: 0,0:00:02.70,0:00:06.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Some{\k27}thing {\k24}has {\k31}changed {\k30}in {\k9}the {\k31}back {\k16}of {\k18}my {\k63}mind
+Dialogue: 0,0:00:05.79,0:00:07.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Your {\k78}eyes
+Dialogue: 0,0:00:07.04,0:00:10.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}There {\k34}ain't {\k14}no{\k27}where {\k25}left {\k16}to {\k27}hide {\k23}be{\k54}hind
+Dialogue: 0,0:00:09.34,0:00:12.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Time {\k27}no {\k26}lon{\k16}ger {\k41}flew {\k14}like {\k21}it {\k48}was
+Dialogue: 0,0:00:11.62,0:00:15.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}When {\k23}the {\k32}flash {\k33}froze {\k25}ev{\k18}ery{\k24}thing {\k21}be{\k93}fore
+Dialogue: 0,0:00:14.68,0:00:16.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}With{\k34}out {\k45}you
+Dialogue: 0,0:00:15.79,0:00:19.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k16}don't {\k23}know {\k24}if {\k15}I {\k30}could {\k39}take {\k24}this {\k37}road
+Dialogue: 0,0:00:18.54,0:00:22.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}and {\k27}I'm {\k25}a{\k26}bout {\k18}to {\k29}lose {\k33}my {\k50}mind
+Dialogue: 0,0:00:20.84,0:00:23.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}E{\k15}very {\k13}mi{\k14}nute {\k12}that {\k12}I {\k31}dialed {\k17}back {\k25}in {\k52}time
+Dialogue: 0,0:00:22.94,0:00:26.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}E{\k7}very {\k20}sin{\k16}gle {\k16}e{\k26}xis{\k23}tence {\k37}re{\k45}winds
+Dialogue: 0,0:00:25.22,0:00:28.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Some{\k9}thing {\k16}se{\k17}cre{\k22}tive {\k31}hi{\k18}dden {\k15}in{\k47}side
+Dialogue: 0,0:00:27.16,0:00:30.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf109}Your {\kf115}mind
+Dialogue: 0,0:00:29.69,0:00:32.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}All {\k12}the {\k19}heart{\k12}aches {\k10}and {\k17}the {\k32}smiles {\k12}ne{\k13}ver {\k34}fa{\k44}ded
+Dialogue: 0,0:00:31.89,0:00:35.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k10}know {\k18}you'll {\k11}be {\k11}by {\k9}my {\k35}side {\k22}when {\k23}we {\k27}make {\k42}it
+Dialogue: 0,0:00:34.64,0:00:37.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Come {\k42}back {\k41}from {\k30}the {\k56}dive
+Dialogue: 0,0:00:37.23,0:00:39.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}back {\k48}in {\k64}time
+Dialogue: 0,0:00:41.31,0:00:44.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Dive {\k56}back {\k47}in {\k73}time
+Dialogue: 0,0:00:45.74,0:00:48.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Dive {\k52}back {\k55}in {\k65}time
+Dialogue: 0,0:00:50.24,0:00:53.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dive {\k53}back {\k55}in {\k70}time
