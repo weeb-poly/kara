@@ -45,6 +45,9 @@
       ]
     },
     "title": "Here's to Old RPI",
+    "titles": {
+      "eng": "Here's to Old RPI"
+    },
     "year": 1897
   }
 }

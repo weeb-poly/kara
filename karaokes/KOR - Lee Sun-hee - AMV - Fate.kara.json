@@ -51,6 +51,9 @@
       ]
     },
     "title": "Fate",
+    "titles": {
+      "eng": "Fate"
+    },
     "year": 2010
   }
 }

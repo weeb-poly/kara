@@ -63,6 +63,9 @@
       ]
     },
     "title": "Step!",
+    "titles": {
+      "eng": "Step!"
+    },
     "year": 2016
   }
 }

@@ -64,6 +64,9 @@
       ]
     },
     "title": "GETCHA!",
+    "titles": {
+      "eng": "GETCHA!"
+    },
     "year": 2020
   }
 }
