@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Tomohiko Togashi"
+    },
+    "modified_at": "2021-09-06T18:54:47.474Z",
+    "name": "Tomohiko Togashi",
+    "repository": "kara.wpi.moe",
+    "tid": "2d022d64-a58a-4578-bd06-e448dd3446f5",
+    "types": [
+      "songwriters"
+    ]
+  }
+}

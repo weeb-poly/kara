@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "ZUN"
+    },
+    "modified_at": "2020-03-31T19:04:38.886Z",
+    "name": "ZUN",
+    "repository": "kara.wpi.moe",
+    "tid": "26cb5252-8510-49e0-897c-a611a05fc056",
+    "types": [
+      "songwriters"
+    ]
+  }
+}
