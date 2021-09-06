@@ -1,0 +1,46 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "version": "Default",
+      "filename": "JPN - Junko Ohashi - AMV - Telephone Number.mp4",
+      "audiogain": -2.3,
+      "loudnorm": "-16.28,-1.79,4.40,-26.54,-0.25",
+      "filesize": 45609136,
+      "duration": 255,
+      "default": true,
+      "lyrics": []
+    }
+  ],
+  "data": {
+    "created_at": "2021-09-06T19:11:00.131Z",
+    "kid": "6e46e77f-540c-4e82-b28a-69dd3f308abd",
+    "modified_at": "2021-09-06T19:15:32.946Z",
+    "repository": "kara.wpi.moe",
+    "tags": {
+      "authors": [
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
+      ],
+      "singers": [
+        "63777da2-4141-4a59-b72e-2e24dcfb1b2b"
+      ],
+      "songtypes": [
+        "a6c79ce5-89ee-4d50-afe8-3abd7317f6c2"
+      ]
+    },
+    "titles": {
+      "eng": "Telephone Number"
+    },
+    "title": "Telephone Number",
+    "year": 1984
+  }
+}
