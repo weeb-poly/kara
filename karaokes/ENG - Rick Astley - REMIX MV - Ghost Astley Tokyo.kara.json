@@ -1,0 +1,51 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "version": "Default",
+      "filename": "ENG - Rick Astley - REMIX MV - Ghost Astley Tokyo.mp4",
+      "audiogain": -3.14,
+      "loudnorm": "-14.24,-0.31,3.50,-24.30,-0.23",
+      "filesize": 26897556,
+      "duration": 214,
+      "default": true,
+      "lyrics": []
+    }
+  ],
+  "data": {
+    "created_at": "2021-09-06T20:08:06.201Z",
+    "kid": "d807d460-fc46-4463-8987-9ee6909ccb77",
+    "modified_at": "2021-09-06T20:09:14.631Z",
+    "repository": "kara.wpi.moe",
+    "tags": {
+      "authors": [
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "langs": [
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "misc": [
+        "07af42d1-824e-407e-bf37-7fb84905484b",
+        "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
+        "ec4360fa-3e3c-4f6f-b0e1-fb8b12b6dd18"
+      ],
+      "singers": [
+        "d75a6087-dda1-417c-81f7-370a9a16f9d3"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ]
+    },
+    "titles": {
+      "eng": "Ghost Astley Tokyo"
+    },
+    "title": "Ghost Astley Tokyo",
+    "year": 2021
+  }
+}
