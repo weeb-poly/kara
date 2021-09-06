@@ -7,8 +7,9 @@
     "i18n": {
       "eng": "Work in Progress"
     },
-    "modified_at": "2021-08-03T22:35:24.183Z",
+    "modified_at": "2021-09-06T19:17:25.192Z",
     "name": "Work in Progress",
+    "problematic": true,
     "repository": "kara.wpi.moe",
     "short": "WIP",
     "tid": "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
