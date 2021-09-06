@@ -6,7 +6,7 @@
   "medias": [
     {
       "version": "Ctrl+Alt+Del",
-      "filename": "JPN - Touhou - MV - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.mp4",
+      "filename": "JPN - Touhou - REMIX OT - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.mp4",
       "audiogain": -6.34,
       "loudnorm": "-9.21,2.38,1.90,-19.21,-0.33",
       "filesize": 669509,
@@ -14,7 +14,7 @@
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - Touhou - MV - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.ass",
+          "filename": "JPN - Touhou - REMIX OT - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.ass",
           "default": true,
           "version": "Default"
         }
@@ -24,7 +24,7 @@
   "data": {
     "created_at": "2021-09-06T18:34:08.276Z",
     "kid": "90dd5ce6-fde6-4e9e-92c0-388adea8a3e4",
-    "modified_at": "2021-09-06T18:59:20.242Z",
+    "modified_at": "2021-09-06T20:12:30.859Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
@@ -41,7 +41,8 @@
       ],
       "misc": [
         "07af42d1-824e-407e-bf37-7fb84905484b",
-        "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
+        "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
+        "ec4360fa-3e3c-4f6f-b0e1-fb8b12b6dd18"
       ],
       "origins": [
         "ac5085db-52d8-44b4-8fbb-1697b24d2046"
@@ -53,7 +54,7 @@
         "2144df86-8e54-4b61-9c59-e5cfa6c60a05"
       ],
       "songtypes": [
-        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+        "97769615-a2e5-4f36-8c23-b2ce2ce3c460"
       ],
       "songwriters": [
         "26cb5252-8510-49e0-897c-a611a05fc056",
