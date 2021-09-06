@@ -1,0 +1,56 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "version": "Default",
+      "filename": "JPN - Miku Hatsune - AUDIO - BREAK IT.mp3",
+      "audiogain": -12.11,
+      "loudnorm": "-5.96,1.59,4.60,-15.96,-0.66",
+      "filesize": 8577117,
+      "duration": 252,
+      "default": true,
+      "lyrics": [
+        {
+          "filename": "JPN - Miku Hatsune - AUDIO - BREAK IT.ass",
+          "default": true,
+          "version": "Default"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "created_at": "2021-09-06T19:21:19.138Z",
+    "kid": "0409d049-2091-403b-ae87-0b1de419156f",
+    "modified_at": "2021-09-06T19:25:31.428Z",
+    "repository": "kara.wpi.moe",
+    "tags": {
+      "authors": [
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
+      ],
+      "singers": [
+        "4407ba0e-5de7-4add-870f-7ac95a4804c9"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "1b97ad86-a45b-45b6-977c-a59253a0c3e0",
+        "b3f7312c-3efa-46ab-8845-829fc202808b"
+      ]
+    },
+    "titles": {
+      "eng": "BREAK IT"
+    },
+    "title": "BREAK IT",
+    "year": 2010
+  }
+}

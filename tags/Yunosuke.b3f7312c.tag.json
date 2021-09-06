@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Yunosuke"
+    },
+    "modified_at": "2021-09-06T19:25:25.165Z",
+    "name": "Yunosuke",
+    "repository": "kara.wpi.moe",
+    "tid": "b3f7312c-3efa-46ab-8845-829fc202808b",
+    "types": [
+      "songwriters"
+    ]
+  }
+}
