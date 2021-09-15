@@ -24,7 +24,7 @@
   "data": {
     "created_at": "2021-09-14T23:21:38.658Z",
     "kid": "4fc50dfa-2d28-4867-a13c-083bb33bbfe5",
-    "modified_at": "2021-09-14T23:29:46.533Z",
+    "modified_at": "2021-09-15T01:31:10.156Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
@@ -71,6 +71,6 @@
       "eng": "Queendom"
     },
     "title": "Queendom",
-    "year": 2010
+    "year": 2021
   }
 }
