@@ -1,0 +1,143 @@
+{
+    "$id": "https://kara.wpi.moe/schemas/karafile",
+    "type": "object",
+    "properties": {
+        "header": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "string",
+                    "semver": { "satisfies": "4" }
+                },
+                "description": {
+                    "type": "string",
+                    "enum": ["Karaoke Mugen Karaoke Data File"]
+                }
+            }
+        },
+        "medias": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/media" }
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "titles": { "type": "string", "minLength": 1 },
+                "repository": { "type": "string", "minLength": 1 },
+                "tags": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/tag" }
+                },
+                "songorder": { "type": "number" },
+                "year": { "type": "integer" },
+                "kid": { "type": "string", "format": "uuid" },
+                "created_at": { "type": "string", "minLength": 1 },
+                "modified_at": { "type": "string", "minLength": 1 },
+                "ignoreHooks": { "type": "boolean" }
+            },
+            "required": ["kid"]
+        }
+    },
+    "definitions": {
+        "lyrics": {
+            "type": "object",
+            "properties": {
+                "filename": {
+                    "type": "string",
+                    "minLength": 1,
+                    "format": "KaraSubFile"
+                },
+                "name": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "default": { "type": "boolean" }
+            },
+            "required": ["default"]
+        },
+        "media": {
+            "type": "object",
+            "properties": {
+                "filename": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "KaraMediaFile"
+                },
+                "size": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "audiogain": { "type": "number" },
+                "loudnorm": { "type": "string" },
+                "duration": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "name": { "type": "string", "minLength": 1 },
+                "default": { "type": "boolean" },
+                "lyrics": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/lyrics" },
+                }
+            }
+        },
+        "tag": {
+            "type": "object",
+            "properties": {
+                "songtypes": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "singers": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "songwriters": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "creators": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "authors": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "misc": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "langs": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "uuid" }
+                },
+                "platforms":  {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "origins": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "genres": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "families": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "groups": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "versions": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+            },
+            "required": ["songtypes", "lang"]
+        }
+    }
+}
