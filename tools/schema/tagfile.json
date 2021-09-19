@@ -6,7 +6,6 @@
             "type": "object",
             "properties": {
                 "version": {
-                    "type": "string",
                     "semver": { "satisfies": "1" }
                 },
                 "description": {
@@ -25,31 +24,37 @@
                     "items": { "type": "string" }
                 },
                 "tid": { "type": "string", "format": "uuid" },
-                "i18n": { "type": "object" },
+                "i18n": {
+                    "type": "object",
+                    "propertyNames": { "type": "string" }
+                },
                 "types": {
                     "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": [
-                            "series",
-                            "singers",
-                            "songtypes",
-                            "creators",
-                            "langs",
-                            "authors",
-                            "misc",
-                            "songwriters",
-                            "groups",
-                            "families",
-                            "origins",
-                            "genres",
-                            "platforms",
-                            "versions"
-                        ]
-                    }
+                    "items": { "$ref": "#/definitions/types" }
                 }
             },
             "required": ["tid"]
+        }
+    },
+    "definitions": {
+        "types": {
+            "type": "string",
+            "enum": [
+                "series",
+                "singers",
+                "songtypes",
+                "creators",
+                "langs",
+                "authors",
+                "misc",
+                "songwriters",
+                "groups",
+                "families",
+                "origins",
+                "genres",
+                "platforms",
+                "versions"
+            ]
         }
     }
 }

@@ -1,4 +1,4 @@
-import { mediaFileRegexp, subFileRegexp } from './constants';
+import { mediaFileRegexp, subFileRegexp } from "./constants.mjs";
 
 export default function addFormats(ajv) {
     ajv.addFormat("KaraMediaFile", mediaFileRegexp);

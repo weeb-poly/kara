@@ -6,7 +6,6 @@
             "type": "object",
             "properties": {
                 "version": {
-                    "type": "string",
                     "semver": { "satisfies": "4" }
                 },
                 "description": {
@@ -22,17 +21,23 @@
         "data": {
             "type": "object",
             "properties": {
-                "titles": { "type": "string", "minLength": 1 },
-                "repository": { "type": "string", "minLength": 1 },
-                "tags": {
-                    "type": "array",
-                    "items": { "$ref": "#/definitions/tag" }
+                "created_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "minLength": 1
                 },
+                "kid": { "type": "string", "format": "uuid" },
+                "modified_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "minLength": 1
+                },
+                "repository": { "type": "string", "minLength": 1 },
+                "tags": { "$ref": "#/definitions/tags" },
+                "titles": { "type": "object" },
+                "title": { "type": "string", "minLength": 1 },
                 "songorder": { "type": "number" },
                 "year": { "type": "integer" },
-                "kid": { "type": "string", "format": "uuid" },
-                "created_at": { "type": "string", "minLength": 1 },
-                "modified_at": { "type": "string", "minLength": 1 },
                 "ignoreHooks": { "type": "boolean" }
             },
             "required": ["kid"]
@@ -47,41 +52,44 @@
                     "minLength": 1,
                     "format": "KaraSubFile"
                 },
+                "default": { "type": "boolean" },
                 "name": {
                     "type": "string",
                     "minLength": 1
-                },
-                "default": { "type": "boolean" }
+                }
             },
             "required": ["default"]
         },
         "media": {
             "type": "object",
             "properties": {
+                "version": {
+                    "type": "string",
+                    "minLength": 1
+                },
                 "filename": {
                     "type": "string",
                     "minLength": 1,
-                    "pattern": "KaraMediaFile"
-                },
-                "size": {
-                    "type": "integer",
-                    "minimum": 0
+                    "format": "KaraMediaFile"
                 },
                 "audiogain": { "type": "number" },
                 "loudnorm": { "type": "string" },
+                "filesize": {
+                    "type": "integer",
+                    "minimum": 0
+                },
                 "duration": {
                     "type": "integer",
                     "minimum": 0
                 },
-                "name": { "type": "string", "minLength": 1 },
                 "default": { "type": "boolean" },
                 "lyrics": {
                     "type": "array",
-                    "items": { "$ref": "#/definitions/lyrics" },
+                    "items": { "$ref": "#/definitions/lyrics" }
                 }
             }
         },
-        "tag": {
+        "tags": {
             "type": "object",
             "properties": {
                 "songtypes": {
@@ -135,9 +143,9 @@
                 "versions": {
                     "type": "array",
                     "items": { "type": "string" }
-                },
+                }
             },
-            "required": ["songtypes", "lang"]
+            "required": ["songtypes", "langs"]
         }
     }
 }

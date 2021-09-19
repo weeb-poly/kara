@@ -31,17 +31,19 @@ export const supportedFiles = {
 		'txt',
 		'kfn',
 		'lrc'
+	],
+	image: [
+		'jpg',
+		'jpeg',
+		'png',
+		'gif'
 	]
 };
 
 /** Regexps for validation. */
-export const uuidRegexp = '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$';
-export const uuidPlusTypeRegexp = '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}~[0-9]+$';
-export const md5Regexp = '^[a-f0-9]{32}$';
 export const mediaFileRegexp = `^.+\\.(${supportedFiles.video.concat(supportedFiles.audio).join('|')})$`;
-export const imageFileRegexp = '^.+\\.(jpg|jpeg|png|gif)$';
+export const imageFileRegexp = `^.+\\.(${supportedFiles.image.join('|')})$`;
 export const subFileRegexp = `^.+\\.(${supportedFiles.lyrics.join('|')})$`;
 export const audioFileRegexp = `^.+\\.(${supportedFiles.audio.join('|')})$`;
-export const hostnameRegexp = /^[a-zA-Z0-9-.]+\.[a-zA-Z0-9-]+$/;
 export const asciiRegexp = /^[\u0000-\u007F]+$/u;
-export const imageFileTypes = ['jpg', 'jpeg', 'png', 'gif'];
+export const imageFileTypes = supportedFiles.image;
