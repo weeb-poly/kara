@@ -1,11 +1,14 @@
-import fs from "fs";
-import path from "path";
-
 import Ajv from "ajv";
 import addErrors from "ajv-errors";
 import addFormats from "ajv-formats";
+
 import addCustomFormats from "./formats.mjs";
 import addCustomKeywords from "./keywords.mjs";
+
+import { allFilesInDir } from "./utils/files.mjs";
+
+import { schema as tagFileSchema, getDataFromTagFile } from "./dao/tagfile.mjs";
+import { schema as karaFileSchema, getDataFromKaraFile } from "./dao/karafile.mjs";
 
 function setupAjv(ajv) {
     addErrors(ajv);
@@ -14,50 +17,30 @@ function setupAjv(ajv) {
     addCustomKeywords(ajv);
 }
 
-function readJsonFile(filename) {
-    let rawdata = fs.readFileSync(filename);
-    let data = JSON.parse(rawdata);
-    return data;
-}
-
-function allFilesInDir(dir) {
-    let files = fs.readdirSync(dir);
-  
-    files = files.map(file => path.join(dir, file));
-    files = files.filter(file => {
-        const stat = fs.statSync(file);
-        return stat.isFile();
-    });
-    
-    return files;
-}
-
-function validateType(validator, files) {
-    for (const filename of files) {
-        let rawdata = fs.readFileSync(filename);
-        let data = JSON.parse(rawdata);
-        let res = validator(data);
-        if (!res) {
-            console.error('Validation error:', filename, validator.errors);
-        }
-    }
-}
-
 function main() {
-    const ajv = new Ajv({allErrors: true});
-    setupAjv(ajv);
-
-    const karaFileSchema = readJsonFile('./schema/karafile.json');
-    const tagFileSchema = readJsonFile('./schema/tagfile.json');
-
-    const karaFileValidator = ajv.compile(karaFileSchema);
-    const tagFileValidator = ajv.compile(tagFileSchema);
+    console.info('Starting data files validation');
 
     const tagFiles = allFilesInDir('../tags/');
     const karaFiles = allFilesInDir('../karaokes/');
 
-    validateType(tagFileValidator, tagFiles);
-    validateType(karaFileValidator, karaFiles);
+    console.debug('Number of karas found: %d', karaFiles.length);
+    console.debug('Number of tags found: %d', tagFiles.length);
+
+    const ajv = new Ajv({allErrors: true});
+    setupAjv(ajv);
+
+    const karaFileValidator = ajv.compile(karaFileSchema);
+    const tagFileValidator = ajv.compile(tagFileSchema);
+
+    for (const filename of tagFiles) {
+        getDataFromTagFile(filename, tagFileValidator);
+    }
+
+    for (const filename of karaFiles) {
+        getDataFromKaraFile(filename, karaFileValidator);
+    }
+
+    console.info('Validation complete');
 }
 
 main();
