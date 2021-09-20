@@ -1,0 +1,60 @@
+{
+    "$id": "https://kara.wpi.moe/schemas/tagfile",
+    "type": "object",
+    "properties": {
+        "header": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "semver": { "satisfies": "1" }
+                },
+                "description": {
+                    "type": "string",
+                    "enum": ["Karaoke Mugen Tag File"]
+                }
+            }
+        },
+        "tag": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "repository": { "type": "string", "minLength": 1 },
+                "aliases": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "tid": { "type": "string", "format": "uuid" },
+                "i18n": {
+                    "type": "object",
+                    "propertyNames": { "type": "string" }
+                },
+                "types": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/types" }
+                }
+            },
+            "required": ["tid"]
+        }
+    },
+    "definitions": {
+        "types": {
+            "type": "string",
+            "enum": [
+                "series",
+                "singers",
+                "songtypes",
+                "creators",
+                "langs",
+                "authors",
+                "misc",
+                "songwriters",
+                "groups",
+                "families",
+                "origins",
+                "genres",
+                "platforms",
+                "versions"
+            ]
+        }
+    }
+}
