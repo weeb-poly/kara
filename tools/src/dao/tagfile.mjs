@@ -1,24 +1,32 @@
 import fs from "fs";
+import path from "path";
+
+import { ajv } from "../ajv/index.mjs";
 
 const schemaFileData = fs.readFileSync('./schema/tagfile.json');
 const schemaData = JSON.parse(schemaFileData);
 
-export { schemaData as schema };
+const validator = ajv.compile(schemaData);
 
-export function getDataFromTagFile(filename, validator) {
-    const tagFileData = fs.readFileSync(filename, 'utf-8');
-    let tagData;
+export { validator };
+
+export async function validateTagFileSchema([fileName, fileData]) {
     try {
-        tagData = JSON.parse(tagFileData);
-    } catch {
-        throw `Syntax error in file ${filename}`;
+        await validator(fileData);
+    } catch (e) {
+        throw `Tag data is not valid for ${fileName} : ${JSON.stringify(e.errors)}`;
     }
-    const isValid = validator(tagData);
-    if (!isValid) {
-        throw `Tag data is not valid for ${filename} : ${JSON.stringify(validator.errors)}`;
-    }
+}
 
-    // TODO: Extra DAO Steps
-
-    return tagData.tag;
+export async function getTagFileData([fileName, tagData]) {
+	fileName = path.basename(fileName);
+    tagData.tag.tagfile = fileName;
+	tagData.tag.types = tagData.tag.types.filter((t) => t !== undefined);
+	if (tagData.tag.types.length === 0)
+        console.warn("Tag %s has no types!", fileName);
+	if (!tagData.tag.repository)
+        tagData.tag.repository = 'kara.moe';
+	if (!tagData.tag.modified_at)
+        tagData.tag.modified_at = '1982-04-06';
+	return tagData.tag;
 }

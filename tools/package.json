@@ -5,8 +5,7 @@
   "description": "Scripts to assist with KM",
   "main": "src/main.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "validate": "node src/validate.mjs"
+    "test": "node src/main.mjs"
   },
   "author": "",
   "license": "ISC",
