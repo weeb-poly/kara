@@ -1,42 +1,69 @@
 import { allFilesInDir, readAllJsonFiles } from "./utils/files.mjs";
 
 import { validateFileSchema } from "./services/validator.mjs";
-import { getFileData, buildDataMaps } from "./services/generator.mjs";
+import { postProcessing } from "./services/processor.mjs";
+import { buildDataMaps } from "./services/generator.mjs";
 
+import { Kara, Tag } from "./classes/index.mjs"
+
+async function readAllTags() {
+    const tagFnames = await allFilesInDir('../tags/');
+    const tagFiles = await readAllJsonFiles(tagFnames);
+    const tags = Object.entries(tagFiles).map(([fileName, fileData]) => {
+        const tag = new Tag(fileData);
+        tag.tagfile = fileName;
+        return tag;
+    });
+    return tags;
+}
+
+async function readAllKaras() {
+    const karaFnames = await allFilesInDir('../karaokes/');
+    const karaFiles = await readAllJsonFiles(karaFnames);
+    const karas = Object.entries(karaFiles).map(([fileName, fileData]) => {
+        const kara = new Kara(fileData);
+        kara.karafile = fileName;
+        return kara;
+    });
+    return karas;
+}
 
 async function main() {
-    console.info('Reading data files');
+    console.time("Reading Data Files");
 
-    const tagFnames = await allFilesInDir('../tags/');
-    const karaFnames = await allFilesInDir('../karaokes/');
+    const tags = await readAllTags();
+    const karas = await readAllKaras();
 
-    console.debug('Number of karas found: %d', karaFnames.length);
-    console.debug('Number of tags found: %d', tagFnames.length);
+    console.timeEnd("Reading Data Files");
 
-    const tagFiles = await readAllJsonFiles(tagFnames);
-    const karaFiles = await readAllJsonFiles(karaFnames);
+    console.debug('Number of karas found: %d', karas.length);
+    console.debug('Number of tags found: %d', tags.length);
     
-    console.info('Starting data files validation');
+    console.time("Schema Validation");
 
-    await validateFileSchema(tagFiles, karaFiles);
+    await validateFileSchema(tags, karas);
 
-    console.info('Schema Validation complete');
+    console.timeEnd("Schema Validation");
 
     //const mediaDirs = ['../../medias/'];
     const mediaDirs = [];
     const lyricsDirs = ['../lyrics/'];
 
-    console.info('Reading File Data');
+    console.time("Post Processing");
 
-    const [tags, karas] = await getFileData(tagFiles, karaFiles, mediaDirs, lyricsDirs);
+    await postProcessing(tags, karas, mediaDirs, lyricsDirs);
 
-    console.info('Building Data Map');
+    console.timeEnd("Post Processing");
+
+    console.time("Building Data Map");
 
     const dataMap = await buildDataMaps(karas, tags);
 
+    console.timeEnd("Building Data Map");
+
     //console.debug(dataMap.tags);
 
-    console.info('Validation Complete');
+    console.info("Validation Complete");
 }
 
 await main();

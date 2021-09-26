@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const asyncFilter = async (arr, predicate) => Promise.all(arr.map(predicate))
-	.then((results) => arr.filter((_v, index) => results[index]));
+    .then((results) => arr.filter((_v, index) => results[index]));
 
 async function asyncExists(file, write = false) {
     return await fs.promises.access(file, write ? fs.constants.W_OK : fs.constants.F_OK)
@@ -21,8 +21,12 @@ export async function allFilesInDir(dir) {
     return files;
 }
 
+export async function getFileSize() {
+    return await fs.promises.stat(mediaFile).then(res => res.size);
+}
+
 export async function resolveFileInDirs(filename, dirs) {
-	let filesFound = await Promise.all(
+    let filesFound = await Promise.all(
         dirs.map(async dir => {
             const resolved = path.resolve(dir, filename);
             return asyncExists(resolved);
@@ -34,7 +38,7 @@ export async function resolveFileInDirs(filename, dirs) {
     if (filesFound.length === 0)
         throw Error(`File "${filename}" not found in any listed directory: ${dirs.join(', ')}`);
 
-	return filesFound;
+    return filesFound;
 }
 
 export async function readAllJsonFiles(fileNames) {

@@ -3,41 +3,41 @@
  */
 
 export const supportedFiles = {
-	video: [
-		'avi',
-		'mkv',
-		'mp4',
-		'webm',
-		'mov',
-		'wmv',
-		'mpg',
-		'm2ts',
-		'rmvb',
-		'ts',
-		'm4v'
-	],
-	audio: [
-		'ogg',
-		'm4a',
-		'mp3',
-		'wav',
-		'flac',
-		'mid'
-	],
-	lyrics: [
-		'ass',
-		'srt',
-		'kar',
-		'txt',
-		'kfn',
-		'lrc'
-	],
-	image: [
-		'jpg',
-		'jpeg',
-		'png',
-		'gif'
-	]
+    video: [
+        'avi',
+        'mkv',
+        'mp4',
+        'webm',
+        'mov',
+        'wmv',
+        'mpg',
+        'm2ts',
+        'rmvb',
+        'ts',
+        'm4v'
+    ],
+    audio: [
+        'ogg',
+        'm4a',
+        'mp3',
+        'wav',
+        'flac',
+        'mid'
+    ],
+    lyrics: [
+        'ass',
+        'srt',
+        'kar',
+        'txt',
+        'kfn',
+        'lrc'
+    ],
+    image: [
+        'jpg',
+        'jpeg',
+        'png',
+        'gif'
+    ]
 };
 
 /** Regexps for validation. */

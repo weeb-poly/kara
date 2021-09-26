@@ -1,12 +1,9 @@
-import { validateTagFileSchema } from "../dao/tagfile.mjs";
-import { validateKaraFileSchema } from "../dao/karafile.mjs";
-
-export async function validateFileSchema(tagFiles, karaFiles) {
+export async function validateFileSchema(tags, karas) {
     await Promise.all(
-        Object.entries(tagFiles).map(entry => validateTagFileSchema(entry))
+        tags.map(tag => tag.validateSchema())
     );
 
     await Promise.all(
-        Object.entries(karaFiles).map(entry => validateKaraFileSchema(entry))
+        karas.map(kara => kara.validateSchema())
     );
 }
