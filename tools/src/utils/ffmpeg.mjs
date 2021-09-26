@@ -1,10 +1,12 @@
+import pathToFfmpeg from "ffmpeg-static";
+
 export async function getMediaInfo(mediafile) {
     try {
-        logger.debug(`Analyzing ${mediafile}`, {service: 'ffmpeg'});
+        console.debug('Analyzing %s', mediafile);
         // We need a second ffmpeg for loudnorm since you can't have two audio filters at once
         const [result, resultLoudnorm] = await Promise.all([
-            execa(getState().binPath.ffmpeg, ['-i', mediafile, '-vn', '-af', 'replaygain', '-f','null', '-'], { encoding : 'utf8' }),
-            execa(getState().binPath.ffmpeg, ['-i', mediafile, '-vn', '-af', 'loudnorm=print_format=json', '-f','null', '-'], { encoding : 'utf8' })
+            execa(pathToFfmpeg, ['-i', mediafile, '-vn', '-af', 'replaygain', '-f','null', '-'], { encoding : 'utf8' }),
+            execa(pathToFfmpeg, ['-i', mediafile, '-vn', '-af', 'loudnorm=print_format=json', '-f','null', '-'], { encoding : 'utf8' })
         ]);
         const outputArray = result.stderr.split(' ');
         const outputArrayLoudnorm = resultLoudnorm.stderr.split('\n');
@@ -38,8 +40,8 @@ export async function getMediaInfo(mediafile) {
             error: error,
             filename: mediafile
         };
-    } catch(err) {
-        logger.warn(`Video ${mediafile} probe error`, {service: 'ffmpeg', obj: err});
+    } catch (err) {
+        console.warn('Video %s probe error', mediafile);
         return { duration: 0, gain: 0, loudnorm: '', error: true, filename: mediafile };
     }
 }
