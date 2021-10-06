@@ -96,6 +96,16 @@ export default class Kara {
     get modified_at() {
         return new Date(this.raw.data.modified_at);
     }
+    set modified_at(date) {
+        if (date instanceof Date) {
+            this.raw.data.modified_at = date.toISOString();
+        } else if (date instanceof String || typeof(date) === 'string') {
+            this.raw.data.modified_at = date;
+        } else {
+            throw new TypeError("Invalid type for modified_at");
+        }
+        this.isModified = true;
+    }
 
     get created_at() {
         return new Date(this.raw.data.created_at);

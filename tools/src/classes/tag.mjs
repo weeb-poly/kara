@@ -87,9 +87,9 @@ export default class Tag {
     }
     set modified_at(date) {
         if (date instanceof Date) {
-            this.raw.tag.modified_at = date;
+            this.raw.tag.modified_at = date.toISOString();
         } else if (date instanceof String || typeof(date) === 'string') {
-            this.raw.tag.modified_at = new Date(date);
+            this.raw.tag.modified_at = date;
         } else {
             throw new TypeError("Invalid type for modified_at");
         }
