@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Saint Snow"
+    },
+    "modified_at": "2020-03-31T19:04:37.277Z",
+    "name": "Saint Snow",
+    "repository": "kara.wpi.moe",
+    "tid": "a1ab013b-21fc-4fe1-a061-897bd0b490fb",
+    "types": [
+      "singers"
+    ]
+  }
+}

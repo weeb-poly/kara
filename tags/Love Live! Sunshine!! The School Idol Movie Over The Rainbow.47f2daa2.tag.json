@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": ""
+    },
+    "modified_at": "2021-10-06T23:35:38.572Z",
+    "name": " Love Live! Sunshine!! The School Idol Movie Over The Rainbow",
+    "repository": "kara.wpi.moe",
+    "tid": "47f2daa2-a526-4402-82a7-a25bf113d452",
+    "types": [
+      "series"
+    ]
+  }
+}
