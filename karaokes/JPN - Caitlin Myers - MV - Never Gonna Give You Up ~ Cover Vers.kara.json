@@ -12,13 +12,19 @@
       "filesize": 67738761,
       "duration": 248,
       "default": true,
-      "lyrics": []
+      "lyrics": [
+        {
+          "filename": "JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.ass",
+          "default": true,
+          "version": "Default"
+        }
+      ]
     }
   ],
   "data": {
     "created_at": "2021-09-18T03:56:53.626Z",
     "kid": "be8e19ce-0e99-4a33-82d8-e9efab4e4d15",
-    "modified_at": "2021-09-18T14:40:50.146Z",
+    "modified_at": "2021-10-07T00:12:17.158Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
