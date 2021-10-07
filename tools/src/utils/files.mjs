@@ -21,7 +21,7 @@ export async function allFilesInDir(dir) {
     return files;
 }
 
-export async function getFileSize() {
+export async function getFileSize(mediaFile) {
     return await fs.promises.stat(mediaFile).then(res => res.size);
 }
 
@@ -29,11 +29,17 @@ export async function resolveFileInDirs(filename, dirs) {
     let filesFound = await Promise.all(
         dirs.map(async dir => {
             const resolved = path.resolve(dir, filename);
-            return asyncExists(resolved);
+            return asyncExists(resolved).then(exists => {
+                if (exists) {
+                    return resolved;
+                } else {
+                    return null;
+                }
+            });
         })
     );
 
-    filesFound = filesFound.filter(exists => exists === true);
+    filesFound = filesFound.filter(resolved => resolved !== null);
 
     if (filesFound.length === 0)
         throw Error(`File "${filename}" not found in any listed directory: ${dirs.join(', ')}`);

@@ -1,7 +1,7 @@
 import { resolveFileInDirs, getFileSize } from "../utils/files.mjs";
 import { getMediaInfo } from "../utils/ffmpeg.mjs";
 
-export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = { media: true, lyrics: false }, opt = { strict: true, noMedia: true }) {
+export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = { media: true, lyrics: false }, opt = { strict: true, noMedia: false }) {
     let mediaFile;
 
     try {
@@ -53,7 +53,8 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
             }
 
             const mediaInfo = await getMediaInfo(mediaFile);
-            if (mediaInfo.error !== true) {
+
+            if (mediaInfo.error !== false) {
                 if (opt.strict) {
                     console.error("ffmpeg encountered an error: %s", mediaFile);
                     kara.error = true;

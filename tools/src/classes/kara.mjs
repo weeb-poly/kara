@@ -1,5 +1,5 @@
 import { ajv } from "../ajv/index.mjs";
-import { getSchema } from "../utils/schemas.js";
+import { getSchema } from "../schemas.mjs";
 
 const schema = getSchema('karafile.json');
 
