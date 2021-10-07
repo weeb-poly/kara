@@ -12,13 +12,19 @@
       "filesize": 45609136,
       "duration": 255,
       "default": true,
-      "lyrics": []
+      "lyrics": [
+        {
+          "filename": "JPN - Junko Ohashi - AMV - Telephone Number.ass",
+          "default": true,
+          "version": "Default"
+        }
+      ]
     }
   ],
   "data": {
     "created_at": "2021-09-06T19:11:00.131Z",
     "kid": "6e46e77f-540c-4e82-b28a-69dd3f308abd",
-    "modified_at": "2021-09-06T19:15:32.946Z",
+    "modified_at": "2021-10-07T00:26:42.434Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
