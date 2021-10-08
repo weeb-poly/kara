@@ -11,10 +11,10 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
     } catch (err) {
         if (!silent.media) {
             if (opt.strict) {
-                console.error("Media file is missing: %s", media.filename);
+                console.error("Media file is missing: %s", kara.mediafile);
                 kara.error = true;
             } else {
-                console.debug("Media file not found: %s", media.filename);
+                console.debug("Media file not found: %s", kara.mediafile);
             }
         }
         kara.download_status = 'MISSING';
