@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Karaoke CI + CD
 
 on:
   push:
@@ -28,9 +28,7 @@ jobs:
           echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 
       - name: Download medias
-        run: |
-          rclone sync s314:kara.wpi.moe/downloads/medias ../medias
-          ls ../medias
+        run: rclone sync s314:kara.wpi.moe/downloads/medias ../medias
 
       - uses: actions/setup-node@v2
         with:

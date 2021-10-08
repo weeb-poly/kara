@@ -1,7 +1,7 @@
 import { resolveFileInDirs, getFileSize } from "../utils/files.mjs";
 import { getMediaInfo } from "../utils/ffmpeg.mjs";
 
-export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = { media: true, lyrics: false }, opt = { strict: true, noMedia: false }) {
+export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = { media: false, lyrics: false }, opt = { strict: true, noMedia: false }) {
     let mediaFile;
 
     try {
