@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     defaults:
@@ -16,8 +16,46 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Download medias
+        run: rclone sync s314:kara.wpi.moe/downloads/medias ../medias
+
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
       - run: npm ci
       - run: npm run test
+
+  deploy:
+    needs: [test]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Deploy repo
+        run: |
+          rclone sync karaokes s314:kara.wpi.moe/downloads/karaokes
+          rclone sync lyrics s314:kara.wpi.moe/downloads/lyrics
+          rclone sync tags s314:kara.wpi.moe/downloads/tags

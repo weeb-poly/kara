@@ -45,8 +45,7 @@ async function main() {
 
     console.timeEnd("Schema Validation");
 
-    //const mediaDirs = ['../../medias/'];
-    const mediaDirs = [];
+    const mediaDirs = ['../medias/', '../../medias/'];
     const lyricsDirs = ['../lyrics/'];
 
     console.time("Post Processing");
