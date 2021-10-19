@@ -45,7 +45,8 @@ export function buildDataMaps(karas, tags) {
     return {
         tags: tagMap,
         tagData: tags,
-        karas: karas
+        karas: karas,
+        error: error
     };
 }
 

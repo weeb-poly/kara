@@ -10,10 +10,10 @@ export async function tagPostProcessing(tag) {
     tag.raw.tag.types = types;
     */
 
-    if (!tag.repository)
+    if (!tag.repository) {
         tag.repository = 'kara.moe';
+    }
     if (!tag.modified_at) {
-        //console.log(tag, tag.modified_at);
         tag.modified_at = '1982-04-06';
     }
 }

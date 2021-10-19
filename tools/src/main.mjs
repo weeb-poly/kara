@@ -6,8 +6,14 @@ import { buildDataMaps } from "./services/generator.mjs";
 
 import { Kara, Tag } from "./classes/index.mjs"
 
+const TAGS_DIR = new URL('../tags/', import.meta.url);
+const KARAS_DIR = new URL('../karaokes/', import.meta.url);
+
+const MEDIA_DIRS = ['../medias/', '../../medias/'].map(x => new URL(x, import.meta.url));
+const LYRICS_DIRS = ['../lyrics/'].map(x => new URL(x, import.meta.url));
+
 async function readAllTags() {
-    const tagFnames = await allFilesInDir('../tags/');
+    const tagFnames = await allFilesInDir(TAGS_DIR);
     const tagFiles = await readAllJsonFiles(tagFnames);
     const tags = Object.entries(tagFiles).map(([fileName, fileData]) => {
         const tag = new Tag(fileData);
@@ -18,7 +24,7 @@ async function readAllTags() {
 }
 
 async function readAllKaras() {
-    const karaFnames = await allFilesInDir('../karaokes/');
+    const karaFnames = await allFilesInDir(KARAS_DIR);
     const karaFiles = await readAllJsonFiles(karaFnames);
     const karas = Object.entries(karaFiles).map(([fileName, fileData]) => {
         const kara = new Kara(fileData);
@@ -45,12 +51,9 @@ async function main() {
 
     console.timeEnd("Schema Validation");
 
-    const mediaDirs = ['../medias/', '../../medias/'];
-    const lyricsDirs = ['../lyrics/'];
-
     console.time("Post Processing");
 
-    await postProcessing(tags, karas, mediaDirs, lyricsDirs);
+    await postProcessing(tags, karas, MEDIA_DIRS, LYRICS_DIRS);
 
     console.timeEnd("Post Processing");
 
@@ -61,6 +64,10 @@ async function main() {
     console.timeEnd("Building Data Map");
 
     //console.debug(dataMap.tags);
+
+    if (dataMap.error) {
+        throw "Error in PostProcessing + DataMap Steps";
+    }
 
     console.info("Validation Complete");
 }

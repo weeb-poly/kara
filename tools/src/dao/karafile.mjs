@@ -14,7 +14,7 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
                 console.error("Media file is missing: %s", kara.mediafile);
                 kara.error = true;
             } else {
-                console.debug("Media file not found: %s", kara.mediafile);
+                console.warn("Media file not found: %s", kara.mediafile);
             }
         }
         kara.download_status = 'MISSING';
@@ -29,7 +29,7 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
                     console.error("Lyrics file is missing: %s", kara.subfile);
                     kara.error = true;
                 } else {
-                    console.debug("Lyrics file not found: %s", kara.subfile);
+                    console.warn("Lyrics file not found: %s", kara.subfile);
                 }
             }
         }
@@ -65,6 +65,8 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
                 kara.gain = mediaInfo.gain;
                 kara.duration = mediaInfo.duration;
                 kara.loudnorm = mediaInfo.loudnorm;
+                console.warn('Updated mediaSize for warning "%s": %i', mediaFile, mediaSize);
+                console.warn('Updated mediaInfo for warning "%s": %o', mediaFile, mediaInfo);
             }
         }
     }
