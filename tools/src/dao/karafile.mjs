@@ -22,7 +22,7 @@ export async function karaPostProcessing(kara, mediaDirs, lyricsDirs, silent = {
 
     if (kara.subfile !== undefined) {
         try {
-            await resolveFileInDirs(kara.subfile, lyricsDirs);
+            const subFiles = await resolveFileInDirs(kara.subfile, lyricsDirs);
         } catch (err) {
             if (!silent.lyrics) {
                 if (opt.strict) {

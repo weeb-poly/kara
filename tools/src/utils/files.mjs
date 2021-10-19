@@ -1,5 +1,7 @@
 import fs from "fs";
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from "url";
+
+export const TOOLS_DIR = new URL('../../', import.meta.url);
 
 const asyncFilter = async (arr, predicate) => Promise.all(arr.map(predicate))
     .then((results) => arr.filter((_v, index) => results[index]));
@@ -11,9 +13,9 @@ async function asyncExists(file, write = false) {
 
 export async function allFilesInDir(dirUrl) {
     let files = await fs.promises.readdir(dirUrl);
-  
-    files = files.map(file => new Url(file, dirUrl));
-    files = asyncFilter(files, async (file) => {
+
+    files = files.map(file => new URL(file, dirUrl));
+    files = await asyncFilter(files, async (file) => {
         const stat = await fs.promises.stat(file);
         return stat.isFile();
     });
@@ -30,7 +32,7 @@ export async function getFileSize(mediaFile) {
 export async function resolveFileInDirs(filename, dirUrls) {
     let filesFound = await Promise.all(
         dirUrls.map(async dirUrl => {
-            const fileUrl = new Url(filename, dirUrl);
+            const fileUrl = new URL(filename, dirUrl);
             return asyncExists(fileUrl).then(exists => {
                 if (exists) {
                     return fileUrl;
