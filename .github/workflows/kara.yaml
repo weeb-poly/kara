@@ -17,6 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - run: sudo apt-get update
+
+      - name: Install fuse
+        run: sudo apt-get install -y fuse
+
       - name: Install rclone
         run: curl https://rclone.org/install.sh | sudo bash
 
@@ -27,13 +32,13 @@ jobs:
           mkdir -p ~/.config/rclone
           echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 
-#      - name: Mount medias
-#        run: |
-#          mkdir ../medias
-#          rclone mount s314:kara.wpi.moe/downloads/medias ../medias
+      - name: Mount medias
+        run: |
+          mkdir ../medias
+          rclone mount s314:kara.wpi.moe/downloads/medias ../medias
 
-      - name: Download medias
-        run: rclone sync s314:kara.wpi.moe/downloads/medias ../medias
+#      - name: Download medias
+#        run: rclone sync s314:kara.wpi.moe/downloads/medias ../medias
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -45,8 +50,8 @@ jobs:
       - run: npm ci
       - run: npm run test
 
-#      - name: Unmount medias
-#        run: fusermount -u ../medias
+      - name: Unmount medias
+        run: fusermount -u ../medias
 
   deploy:
     needs: [test]
