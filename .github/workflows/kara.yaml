@@ -35,7 +35,7 @@ jobs:
       - name: Mount medias
         run: |
           mkdir ../medias
-          rclone mount s314:kara.wpi.moe/downloads/medias ../medias
+          rclone mount s314:kara.wpi.moe/downloads/medias ../medias --daemon
 
 #      - name: Download medias
 #        run: rclone sync s314:kara.wpi.moe/downloads/medias ../medias
