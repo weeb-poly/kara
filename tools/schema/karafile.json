@@ -32,6 +32,10 @@
                     "format": "date-time",
                     "minLength": 1
                 },
+                "parents": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "uuid" }
+                },
                 "repository": { "type": "string", "minLength": 1 },
                 "tags": { "$ref": "#/definitions/tags" },
                 "titles": { "type": "object" },
@@ -92,57 +96,61 @@
         "tags": {
             "type": "object",
             "properties": {
-                "songtypes": {
+                "authors": {
                     "type": "array",
-                    "items": { "type": "string" }
-                },
-                "singers": {
-                    "type": "array",
-                    "items": { "type": "string" }
-                },
-                "songwriters": {
-                    "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
                 "creators": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
-                "authors": {
+                "families": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
-                "misc": {
+                "genres": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
+                },
+                "groups": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "uuid" }
                 },
                 "langs": {
                     "type": "array",
                     "items": { "type": "string", "format": "uuid" }
                 },
-                "platforms":  {
+                "misc": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
                 "origins": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
-                "genres": {
+                "platforms":  {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
-                "families": {
+                "series": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 },
-                "groups": {
+                "singers": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
+                },
+                "songtypes": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "uuid" }
+                },
+                "songwriters": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "uuid" }
                 },
                 "versions": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": { "type": "string", "format": "uuid" }
                 }
             },
             "required": ["songtypes", "langs"]

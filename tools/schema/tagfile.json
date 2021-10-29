@@ -17,21 +17,27 @@
         "tag": {
             "type": "object",
             "properties": {
-                "name": { "type": "string", "minLength": 1 },
-                "repository": { "type": "string", "minLength": 1 },
                 "aliases": {
                     "type": "array",
                     "items": { "type": "string" }
                 },
-                "tid": { "type": "string", "format": "uuid" },
                 "i18n": {
                     "type": "object",
                     "propertyNames": { "type": "string" }
                 },
+                "modified_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "minLength": 1
+                },
+                "karafile_tag": { "type": "string", "minLength": 1 },
+                "name": { "type": "string", "minLength": 1 },
+                "tid": { "type": "string", "format": "uuid" },
                 "types": {
                     "type": "array",
                     "items": { "$ref": "#/definitions/types" }
-                }
+                },
+                "repository": { "type": "string", "minLength": 1 }
             },
             "required": ["tid"]
         }
