@@ -6,34 +6,33 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "ENG - League of Legends - PC GAME MV - K DA - THE BADDEST.mp4",
-      "audiogain": -2.57,
-      "loudnorm": "-14.04,-4.04,7.70,-24.21,-0.01",
-      "filesize": 50987739,
-      "duration": 175,
+      "filename": "ENG - League of Legends - GAME PC MV - K DA - THE BADDEST.mp4",
+      "audiogain": -2.93,
+      "loudnorm": "-13.91,-2.73,5.30,-23.95,-0.11",
+      "filesize": 73771613,
+      "duration": 162,
       "default": true,
       "lyrics": [
         {
-          "filename": "ENG - League of Legends - PC GAME MV - K DA - THE BADDEST.ass",
+          "filename": "ENG - League of Legends - GAME PC MV - K DA - THE BADDEST.ass",
           "default": true,
-          "version": "Default",
-          "subchecksum": "248bf8f7b2f1e5b3ce0fde0e5947b4fb"
+          "version": "Default"
         }
       ]
     }
   ],
   "data": {
-    "created_at": "2021-07-11T03:35:48.191Z",
+    "created_at": "2021-10-24T17:41:58.869Z",
     "kid": "7cf5c99a-ab3d-4120-bd98-f209afd6bfb6",
-    "modified_at": "2021-08-03T22:39:36.018Z",
+    "modified_at": "2021-10-30T17:07:40.068Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
-        "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+        "5690b59e-e9d1-4384-8a50-f0ff04996dfb",
+        "8605a8b9-3b45-44b9-9d98-1a25096bf702"
       ],
       "creators": [
-        "4d1b9aac-f0ca-42de-a2f0-eff2869ea6e3",
-        "ee239505-d44c-40ad-b264-cc9823f71232"
+        "4d1b9aac-f0ca-42de-a2f0-eff2869ea6e3"
       ],
       "families": [
         "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
@@ -46,8 +45,7 @@
         "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
       ],
       "misc": [
-        "1adbf395-31af-4e44-88a4-2b73d4b6bdab",
-        "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
+        "1adbf395-31af-4e44-88a4-2b73d4b6bdab"
       ],
       "platforms": [
         "3c15f758-e1bc-4266-8bb9-3c14112f504a"
@@ -56,21 +54,22 @@
         "f76f47b0-f820-454f-8cc5-2ec0bf5b3d28"
       ],
       "singers": [
-        "36bff4ff-c44a-4a02-a3c8-d9076667b97b",
-        "963b5ad3-acc1-44b3-bcbd-ed3d36d490a4",
-        "c5478e8a-fede-4ecb-99a3-26ddc8f44eb9"
+        "1401c76b-2da8-4ad7-baf8-78139c4fb6f4",
+        "318f012f-d226-4cba-bfd9-5cad1c61f109",
+        "963b5ad3-acc1-44b3-bcbd-ed3d36d490a4"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ],
       "songwriters": [
-        "04abdffe-8b06-4350-b521-8a5789a75890"
+        "04abdffe-8b06-4350-b521-8a5789a75890",
+        "5092adbb-0292-47be-bf28-dc0b20025086"
       ]
     },
-    "title": "K/DA - THE BADDEST",
     "titles": {
       "eng": "K/DA - THE BADDEST"
     },
+    "title": "K/DA - THE BADDEST",
     "year": 2020
   }
 }

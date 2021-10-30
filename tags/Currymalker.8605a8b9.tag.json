@@ -6,14 +6,14 @@
   "tag": {
     "count": 1,
     "i18n": {
-      "eng": "2020s"
+      "eng": "Currymalker"
     },
     "modified_at": "2021-10-30T17:01:38.455Z",
-    "name": "2020s",
+    "name": "Currymalker",
     "repository": "kara.wpi.moe",
-    "tid": "8e209ae4-4381-438f-89dc-1b21752027d2",
+    "tid": "8605a8b9-3b45-44b9-9d98-1a25096bf702",
     "types": [
-      "groups"
+      "authors"
     ]
   }
 }

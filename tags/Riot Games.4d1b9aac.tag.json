@@ -4,10 +4,11 @@
     "version": 1
   },
   "tag": {
+    "count": 1,
     "i18n": {
       "eng": "Riot Games"
     },
-    "modified_at": "2020-03-31T19:04:37.131Z",
+    "modified_at": "2021-10-30T17:01:38.452Z",
     "name": "Riot Games",
     "repository": "kara.wpi.moe",
     "tid": "4d1b9aac-f0ca-42de-a2f0-eff2869ea6e3",

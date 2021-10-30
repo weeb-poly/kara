@@ -4,6 +4,7 @@
     "version": 1
   },
   "tag": {
+    "count": 1,
     "i18n": {
       "afr": "Koreaanse",
       "alb": "Korean",
@@ -90,7 +91,7 @@
       "xho": "Isikorean",
       "yid": "קאָרעיִש"
     },
-    "modified_at": "2020-08-18T10:14:52.736Z",
+    "modified_at": "2021-10-30T17:01:38.451Z",
     "name": "kor",
     "repository": "kara.wpi.moe",
     "tid": "3b9e2749-27d0-4a78-873d-ea91a9ee9a25",

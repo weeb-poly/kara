@@ -4,10 +4,12 @@
     "version": 1
   },
   "tag": {
+    "count": 1,
     "i18n": {
       "eng": "Music Video"
     },
-    "modified_at": "2021-05-14T02:32:23.323Z",
+    "karafile_tag": "MV",
+    "modified_at": "2021-10-30T17:01:38.454Z",
     "name": "MV",
     "priority": 15,
     "repository": "kara.wpi.moe",
