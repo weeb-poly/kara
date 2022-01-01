@@ -21,6 +21,7 @@
                     "type": "array",
                     "items": { "type": "string" }
                 },
+                "count": { "type": "integer" },
                 "i18n": {
                     "type": "object",
                     "propertyNames": { "type": "string" }
