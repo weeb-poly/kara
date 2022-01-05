@@ -7,41 +7,73 @@ PlayResX: 0
 PlayResY: 0
 ScaledBorderAndShadow: yes
 
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: ../../Repos/kara.wpi.moe/medias/JPN - Junko Ohashi - AMV - Telephone Number.mp4
+Video File: ../../Repos/kara.wpi.moe/medias/JPN - Junko Ohashi - AMV - Telephone Number.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.250000
+Active Line: 13
+Video Position: 7640
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
-Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Wasurenaide watashi no terefon nanba
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Komatta toki daiyaru shite hoshii itsudemo
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,So every night
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,karaoke,So every night
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Nomi tsudzukete iru anata no
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Sabishi-sa ni ah, kidzuiteta ah
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Oh, loving you
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Senotakai anata ga chiisaku mierukara
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Tabidatsu asa egao de itte hoshii onegai
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,So every day
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,karaoke,So every day
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Bell o ki ni shite wa kurasu wa
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Kono ai ni ah, kidzuitara ah
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Oh, loving me
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:00:11.29,0:00:12.29,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:00:21.40,0:00:22.40,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:00:31.74,0:00:32.74,Sample KM [Up],,0,0,0,karaoke,Wasurenaide watashi no terefon nanba
+Comment: 0,0:00:42.25,0:00:43.25,Sample KM [Up],,0,0,0,karaoke,Komatta toki daiyaru shite hoshii itsudemo
+Comment: 0,0:00:52.13,0:00:53.13,Sample KM [Up],,0,0,0,karaoke,So every night
+Comment: 0,0:00:53.60,0:00:54.60,Sample KM [Choir],,0,0,0,karaoke,So every night
+Comment: 0,0:00:55.33,0:00:56.33,Sample KM [Up],,0,0,0,karaoke,Nomi tsudzukete iru anata no
+Comment: 0,0:01:02.64,0:01:03.64,Sample KM [Up],,0,0,0,karaoke,Sabishi-sa ni ah, kidzuiteta ah
+Comment: 0,0:01:07.95,0:01:08.95,Sample KM [Up],,0,0,0,karaoke,Oh, loving you
+Comment: 0,0:01:12.58,0:01:13.58,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:01:22.66,0:01:23.66,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:01:33.11,0:01:34.11,Sample KM [Up],,0,0,0,karaoke,Senotakai anata ga chiisaku mierukara
+Comment: 0,0:01:43.82,0:01:44.82,Sample KM [Up],,0,0,0,karaoke,Tabidatsu asa egao de itte hoshii onegai
+Comment: 0,0:01:53.23,0:01:54.23,Sample KM [Up],,0,0,0,karaoke,So every day
+Comment: 0,0:01:54.76,0:01:55.76,Sample KM [Choir],,0,0,0,karaoke,So every day
+Comment: 0,0:01:56.53,0:01:57.53,Sample KM [Up],,0,0,0,karaoke,Bell o ki ni shite wa kurasu wa
+Comment: 0,0:02:03.94,0:02:04.94,Sample KM [Up],,0,0,0,karaoke,Kono ai ni ah, kidzuitara ah
+Comment: 0,0:02:08.71,0:02:09.71,Sample KM [Up],,0,0,0,karaoke,Oh, loving me
+Comment: 0,0:02:13.88,0:02:14.88,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:02:23.76,0:02:24.76,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:02:54.42,0:02:55.42,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:03:04.56,0:03:05.56,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:03:14.71,0:03:15.71,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:03:24.75,0:03:25.75,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:03:35.13,0:03:36.13,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Comment: 0,0:03:44.97,0:03:45.97,Sample KM [Up],,0,0,0,karaoke,Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:00:10.39,0:00:12.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:00:20.50,0:00:22.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:00:30.84,0:00:32.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Wasurenaide watashi no terefon nanba
+Dialogue: 0,0:00:41.35,0:00:43.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Komatta toki daiyaru shite hoshii itsudemo
+Dialogue: 0,0:00:51.23,0:00:53.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}So every night
+Dialogue: 0,0:00:52.70,0:00:54.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}So every night
+Dialogue: 0,0:00:54.43,0:00:56.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Nomi tsudzukete iru anata no
+Dialogue: 0,0:01:01.74,0:01:03.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Sabishi-sa ni ah, kidzuiteta ah
+Dialogue: 0,0:01:07.05,0:01:09.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Oh, loving you
+Dialogue: 0,0:01:11.68,0:01:13.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:01:21.76,0:01:23.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:01:32.21,0:01:34.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Senotakai anata ga chiisaku mierukara
+Dialogue: 0,0:01:42.92,0:01:45.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Tabidatsu asa egao de itte hoshii onegai
+Dialogue: 0,0:01:52.33,0:01:54.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}So every day
+Dialogue: 0,0:01:53.86,0:01:55.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}So every day
+Dialogue: 0,0:01:55.63,0:01:57.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Bell o ki ni shite wa kurasu wa
+Dialogue: 0,0:02:03.04,0:02:05.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Kono ai ni ah, kidzuitara ah
+Dialogue: 0,0:02:07.81,0:02:09.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Oh, loving me
+Dialogue: 0,0:02:12.98,0:02:15.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:02:22.86,0:02:24.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:02:53.52,0:02:55.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:03:03.66,0:03:05.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:03:13.81,0:03:15.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:03:23.85,0:03:25.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:03:34.23,0:03:36.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
+Dialogue: 0,0:03:44.07,0:03:46.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}Ah-ooooh! 5-6-7-0-9
