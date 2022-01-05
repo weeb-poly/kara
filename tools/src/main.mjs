@@ -61,6 +61,16 @@ async function main() {
 
     const dataMap = await buildDataMaps(karas, tags);
 
+    const unusedTags = Array.from(
+        dataMap.tags.entries(),
+        ([tid, kMap]) => (kMap.size === 0) ? tid : []
+    ).flat();
+
+    if (unusedTags.length !== 0) {
+        console.log("Unused tags found:");
+        console.log(unusedTags);
+    }
+
     console.timeEnd("Building Data Map");
 
     //console.debug(dataMap.tags);
