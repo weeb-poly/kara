@@ -5,15 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Work in Progress"
+      "fre": "Complète"
     },
-    "name": "Work in Progress",
-    "problematic": true,
+    "name": "Full",
+    "priority": 3,
     "repository": "kara.wpi.moe",
-    "short": "WIP",
-    "tid": "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
+    "tid": "c2143a7f-6970-450e-8a79-0302db9220a9",
     "types": [
-      "misc"
+      "versions"
     ]
   }
 }

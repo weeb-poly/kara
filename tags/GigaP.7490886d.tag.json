@@ -9,9 +9,9 @@
     ],
     "i18n": {
       "eng": "Giga-P",
-      "jpn": "ギガP"
+      "jpn": "ギガP",
+      "qjr": "GigaP"
     },
-    "modified_at": "2021-04-02T15:26:23.490Z",
     "name": "GigaP",
     "repository": "kara.wpi.moe",
     "tid": "7490886d-eb4d-4a78-8b18-cc04f4a3bb26",

@@ -5,15 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Work in Progress"
+      "eng": "sweet ARMS"
     },
-    "name": "Work in Progress",
-    "problematic": true,
+    "name": "sweet ARMS",
     "repository": "kara.wpi.moe",
-    "short": "WIP",
-    "tid": "718987af-3d3c-4e74-9d9e-3e63ef033ba5",
+    "tid": "d1b95792-c817-41d6-b91f-9aa70736a2e5",
     "types": [
-      "misc"
+      "singers"
     ]
   }
 }
