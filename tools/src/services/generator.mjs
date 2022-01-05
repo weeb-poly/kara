@@ -49,4 +49,3 @@ export function buildDataMaps(karas, tags) {
         error: error
     };
 }
-
