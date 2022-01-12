@@ -21,7 +21,6 @@
                     "type": "array",
                     "items": { "type": "string" }
                 },
-                "count": { "type": "integer" },
                 "i18n": {
                     "type": "object",
                     "propertyNames": { "type": "string" }
@@ -40,7 +39,7 @@
                 },
                 "repository": { "type": "string", "minLength": 1 }
             },
-            "required": ["tid"]
+            "required": ["name", "tid", "repository"]
         }
     },
     "definitions": {
@@ -60,7 +59,8 @@
                 "origins",
                 "genres",
                 "platforms",
-                "versions"
+                "versions",
+                "warnings"
             ]
         }
     }
