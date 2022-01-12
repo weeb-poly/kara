@@ -38,13 +38,17 @@
                 },
                 "repository": { "type": "string", "minLength": 1 },
                 "tags": { "$ref": "#/definitions/tags" },
-                "titles": { "type": "object" },
+                "titles": {
+                    "type": "object",
+                    "minProperties": 1,
+                    "additionalProperties": { "type": "string" }
+                },
                 "title": { "type": "string", "minLength": 1 },
                 "songorder": { "type": "number" },
                 "year": { "type": "integer" },
                 "ignoreHooks": { "type": "boolean" }
             },
-            "required": ["kid"]
+            "required": ["created_at", "kid", "modified_at", "repository", "titles"]
         }
     },
     "definitions": {
@@ -56,13 +60,9 @@
                     "minLength": 1,
                     "format": "KaraSubFile"
                 },
-                "default": { "type": "boolean" },
-                "name": {
-                    "type": "string",
-                    "minLength": 1
-                }
+                "default": { "type": "boolean" }
             },
-            "required": ["default"]
+            "required": ["filename", "default"]
         },
         "media": {
             "type": "object",
@@ -91,7 +91,8 @@
                     "type": "array",
                     "items": { "$ref": "#/definitions/lyrics" }
                 }
-            }
+            },
+            "required": ["filename", "loudnorm"]
         },
         "tags": {
             "type": "object",
