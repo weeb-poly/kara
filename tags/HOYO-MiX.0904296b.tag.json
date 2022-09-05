@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "HOYO-MiX"
+    },
+    "name": "HOYO-MiX",
+    "repository": "kara.wpi.moe",
+    "tid": "0904296b-d3df-4e59-b369-3d4a8ef19565",
+    "types": [
+      "songwriters"
+    ]
+  }
+}
