@@ -23,7 +23,7 @@ jobs:
 
       - name: Configure rclone
         env:
-          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF_FILE }}
         run: |
           mkdir -p ~/.config/rclone
           echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
@@ -31,10 +31,10 @@ jobs:
       - name: Mount medias
         run: |
           mkdir ./medias
-          rclone mount s314:kara.wpi.moe/downloads/medias ./medias --daemon
+          rclone mount kara0-wpi-moe:downloads/medias ./medias --daemon
 
 #      - name: Download medias
-#        run: rclone sync s314:kara.wpi.moe/downloads/medias ./medias
+#        run: rclone sync kara0-wpi-moe:downloads/medias ./medias
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -62,13 +62,13 @@ jobs:
 
       - name: Configure rclone
         env:
-          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF_FILE }}
         run: |
           mkdir -p ~/.config/rclone
           echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 
       - name: Deploy repo
         run: |
-          rclone sync karaokes s314:kara.wpi.moe/downloads/karaokes
-          rclone sync lyrics s314:kara.wpi.moe/downloads/lyrics
-          rclone sync tags s314:kara.wpi.moe/downloads/tags
+          rclone sync karaokes kara0-wpi-moe:downloads/karaokes
+          rclone sync lyrics kara0-wpi-moe:downloads/lyrics
+          rclone sync tags kara0-wpi-moe:downloads/tags
