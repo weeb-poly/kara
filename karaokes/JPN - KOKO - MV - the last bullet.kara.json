@@ -23,12 +23,16 @@
   ],
   "data": {
     "created_at": "2022-01-05T01:24:47.147Z",
+    "ignoreHooks": false,
     "kid": "aada65a0-53ec-48a6-b210-49d792a2404b",
-    "modified_at": "2022-01-05T01:27:41.779Z",
+    "modified_at": "2022-09-15T18:58:59.730Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "groups": [
         "8e209ae4-4381-438f-89dc-1b21752027d2"
@@ -49,6 +53,7 @@
     "titles": {
       "eng": "the last bullet"
     },
+    "titles_default_language": "eng",
     "title": "the last bullet",
     "year": 2021
   }

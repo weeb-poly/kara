@@ -6,7 +6,7 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Ouchi ni Kaeritai.mp4",
+      "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home.mp4",
       "audiogain": -1.22,
       "loudnorm": "-16.06,-6.08,3.10,-26.10,-0.72",
       "filesize": 12322092,
@@ -14,21 +14,25 @@
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Ouchi ni Kaeritai.ass",
+          "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home.ass",
           "default": true,
-          "version": "Furigana"
+          "version": "Default"
         }
       ]
     }
   ],
   "data": {
     "created_at": "2017-10-11T17:01:25.000Z",
+    "ignoreHooks": false,
     "kid": "674998ff-4f44-4c44-af37-9e387ee101ac",
-    "modified_at": "2021-09-21T22:25:43.900Z",
+    "modified_at": "2022-09-15T18:52:36.736Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "creators": [
         "2bf7a71d-d3fc-42ba-8aa0-a94d7ca3888c"
@@ -67,11 +71,12 @@
       ]
     },
     "titles": {
-      "eng": "Ouchi ni Kaeritai",
-      "qjr": "Ouchi ni Kaeritai",
-      "jpn": "おうちに帰りたい"
+      "eng": "Wanna Go Home",
+      "jpn": "おうちに帰りたい",
+      "qro": "Ouchi ni Kaeritai"
     },
-    "title": "Ouchi ni Kaeritai",
+    "titles_default_language": "eng",
+    "title": "Wanna Go Home",
     "year": 2017
   }
 }

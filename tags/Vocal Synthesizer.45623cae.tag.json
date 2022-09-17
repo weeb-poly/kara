@@ -1,0 +1,30 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Vocaloid",
+      "UTAU",
+      "Synthesizer V",
+      "Synth V",
+      "CeVIO",
+      "Piapro",
+      "Alter/Ego"
+    ],
+    "i18n": {
+      "eng": "Vocal Synthesizer",
+      "fre": "Synthétiseur Vocal",
+      "jpn": "ボーカルシンセサイザー",
+      "qro": "Vocal Synthesizer"
+    },
+    "name": "Vocal Synthesizer",
+    "repository": "kara.wpi.moe",
+    "short": "SYNTH",
+    "tid": "45623cae-6d68-4304-a49b-896d1d6f4580",
+    "types": [
+      "genres"
+    ]
+  }
+}

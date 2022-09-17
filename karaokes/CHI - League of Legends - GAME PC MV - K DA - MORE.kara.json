@@ -6,7 +6,7 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "CHI - League of Legends - PC GAME MV - K DA - MORE.mp4",
+      "filename": "CHI - League of Legends - GAME PC MV - K DA - MORE.mp4",
       "audiogain": -3.39,
       "loudnorm": "-13.49,-0.50,8.90,-23.78,-0.54",
       "filesize": 122952064,
@@ -14,22 +14,25 @@
       "default": true,
       "lyrics": [
         {
-          "filename": "CHI - League of Legends - PC GAME MV - K DA - MORE.ass",
+          "filename": "CHI - League of Legends - GAME PC MV - K DA - MORE.ass",
           "default": true,
-          "version": "Default",
-          "subchecksum": "e1e324b3170d63701afa7f3d8775cae1"
+          "version": "Default"
         }
       ]
     }
   ],
   "data": {
     "created_at": "2021-07-13T05:54:14.839Z",
+    "ignoreHooks": false,
     "kid": "403196b4-5ff1-4de6-985e-49bec4d995ae",
-    "modified_at": "2021-07-30T20:10:49.380Z",
+    "modified_at": "2022-09-15T18:53:17.905Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "creators": [
         "398eef92-57fb-478d-b9dd-6b14598d37bd",
@@ -70,10 +73,11 @@
         "5092adbb-0292-47be-bf28-dc0b20025086"
       ]
     },
-    "title": "K/DA - MORE",
     "titles": {
       "eng": "K/DA - MORE"
     },
+    "titles_default_language": "eng",
+    "title": "K/DA - MORE",
     "year": 2020
   }
 }

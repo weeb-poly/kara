@@ -22,13 +22,18 @@
     }
   ],
   "data": {
+    "comment": "Need to fill in Info",
     "created_at": "2021-09-18T03:56:53.626Z",
+    "ignoreHooks": false,
     "kid": "be8e19ce-0e99-4a33-82d8-e9efab4e4d15",
-    "modified_at": "2021-10-07T00:12:17.158Z",
+    "modified_at": "2022-09-15T18:56:28.985Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
@@ -52,8 +57,8 @@
     "titles": {
       "eng": "Never Gonna Give You Up"
     },
+    "titles_default_language": "eng",
     "title": "Never Gonna Give You Up",
-    "year": 2021,
-    "comment": "Need to fill in Info"
+    "year": 2021
   }
 }

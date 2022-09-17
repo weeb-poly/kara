@@ -23,12 +23,16 @@
   ],
   "data": {
     "created_at": "2021-09-06T19:21:19.138Z",
+    "ignoreHooks": false,
     "kid": "0409d049-2091-403b-ae87-0b1de419156f",
-    "modified_at": "2021-09-06T19:25:31.428Z",
+    "modified_at": "2022-09-15T18:56:48.919Z",
     "repository": "kara.wpi.moe",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
@@ -50,6 +54,7 @@
     "titles": {
       "eng": "BREAK IT"
     },
+    "titles_default_language": "eng",
     "title": "BREAK IT",
     "year": 2010
   }

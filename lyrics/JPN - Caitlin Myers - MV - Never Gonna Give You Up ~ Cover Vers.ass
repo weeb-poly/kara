@@ -3,20 +3,19 @@
 ; http://www.aegisub.org/
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 0
-PlayResY: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: ../../Repos/kara.wpi.moe/medias/JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.mp4
-Video File: ../../Repos/kara.wpi.moe/medias/JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.mp4
+Audio File: ../../medias/JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.mp4
+Video File: ../../medias/JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.375000
-Active Line: 3
-Video Position: 965
+Video Zoom Percent: 0.500000
+Scroll Position: 12
+Active Line: 20
+Video Position: 1155
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -39,24 +38,24 @@ Comment: 0,0:00:00.00,0:00:00.00,,,0,0,0,template pre-line all keeptags,!retime(
 Comment: 0,0:00:21.84,0:00:24.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}A{\k20}i{\k9} {\k29}no {\k27}rū{\k23}ru {\kf155}wa
 Comment: 0,0:00:25.95,0:00:30.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k168}Watashitachi {\k31}mō {\k247}shitteita
 Comment: 0,0:00:30.45,0:00:34.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k54}Honki {\k30}o {\k55}dasu {\k26}no {\k56}wa {\k185}tōzenda
-Comment: 0,0:00:34.51,0:00:39.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,Hoka no dareka to chigaukara
-Comment: 0,0:00:39.00,0:00:39.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,Kono kimochi o tsutaetai
-Comment: 0,0:00:39.72,0:00:47.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,Nattoku sasenakya
-Comment: 0,0:00:47.02,0:00:49.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite yuzuranai
-Comment: 0,0:00:49.53,0:00:52.03,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Shitsubō o sasenai
-Comment: 0,0:00:52.03,0:00:55.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite okizari ni wa shinai
-Comment: 0,0:00:55.50,0:01:00.84,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite nakasenai
-Comment: 0,0:00:55.50,0:01:00.84,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,"sayōnara" iwanai
-Comment: 0,0:01:00.84,0:01:06.18,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite uso de kizutsukenai
-Comment: 0,0:01:00.84,0:01:06.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,Kokoro ga itan demo
-Comment: 0,0:01:06.18,0:01:11.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,Kimi wa sore o kuchi ni shinai
-Comment: 0,0:01:11.52,0:01:16.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,Iwanakute mo wakatte iru
-Comment: 0,0:01:16.86,0:01:22.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,Son'na asobi o shimashō ka
-Comment: 0,0:01:22.19,0:01:27.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,"kimi wa daijōbu ka?" to
-Comment: 0,0:01:28.63,0:01:32.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,Minai furi mō yamete
-Comment: 0,0:01:28.63,0:01:32.07,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite yuzuranai
-Comment: 0,0:01:32.07,0:01:37.14,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Shitsubō o sasenai
-Comment: 0,0:01:32.07,0:01:37.14,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite okizari ni wa shinai
+Comment: 0,0:00:34.88,0:00:39.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k58}Hoka {\k26}no {\k56}dareka {\k48}to {\k224}chigaukara
+Comment: 0,0:00:39.06,0:00:44.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k163}Kono {\k84}kimochi {\k18}o {\k234}tsutaetai
+Comment: 0,0:00:44.60,0:00:47.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Na{\k24}tto{\k17}ku {\k54}sa{\k44}se{\k28}na{\k48}kya
+Comment: 0,0:00:47.39,0:00:49.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k8}Ke{\k19}sshi{\k11}te {\k20}yu{\k41}zu{\k41}ra{\k74}nai
+Comment: 0,0:00:49.53,0:00:51.82,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k49}Shitsubō {\k12}o {\k168}sasenai
+Comment: 0,0:00:51.82,0:00:56.00,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}Kesshite {\k151}okizari {\k55}ni {\k12}wa {\k155}shinai
+Comment: 0,0:00:56.27,0:00:58.37,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k43}Kesshite {\k167}nakasenai
+Comment: 0,0:00:58.37,0:01:00.71,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k68}"sayōnara" {\k166}iwanai
+Comment: 0,0:01:00.71,0:01:05.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k40}Kesshite {\k73}uso {\k25}de {\k307}kizutsukenai
+Comment: 0,0:01:05.99,0:01:10.16,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k84}Kokoro {\k29}ga {\k138}itan {\k166}demo
+Comment: 0,0:01:10.42,0:01:14.90,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k59}Kimi {\k13}wa {\k70}sore {\k81}o {\k58}kuchi {\k43}ni {\k124}shinai
+Comment: 0,0:01:14.90,0:01:19.01,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k113}Iwanakute {\k24}mo {\k113}wakatte {\k161}iru
+Comment: 0,0:01:19.22,0:01:23.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k67}Son'na {\k82}asobi {\k75}o {\k119}shimashō {\k66}ka
+Comment: 0,0:01:23.46,0:01:28.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k165}"kimi {\k32}wa {\k137}daijōbu {\k58}ka?" {\k111}to
+Comment: 0,0:01:28.79,0:01:31.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k53}Minai {\k57}furi {\k55}mō {\k111}yamete
+Comment: 0,0:01:31.55,0:01:33.95,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite yuzuranai
+Comment: 0,0:01:33.95,0:01:36.27,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Shitsubō o sasenai
+Comment: 0,0:01:36.27,0:01:37.14,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite okizari ni wa shinai
 Comment: 0,0:01:37.14,0:01:41.35,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite nakasenai
 Comment: 0,0:01:41.35,0:01:46.75,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,"sayōnara" iwanai
 Comment: 0,0:01:41.35,0:01:46.75,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshite uso de kizutsukenai
@@ -97,10 +96,10 @@ Comment: 0,0:03:42.60,0:03:47.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,Kesshi
 Dialogue: 0,0:00:20.94,0:00:24.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}A{\k20}i{\k9} {\k29}no {\k27}rū{\k23}ru {\kf155}wa
 Dialogue: 0,0:00:25.05,0:00:30.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k168}Watashitachi {\k31}mō {\k247}shitteita
 Dialogue: 0,0:00:29.55,0:00:34.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Honki {\k30}o {\k55}dasu {\k26}no {\k56}wa {\k185}tōzenda
-Dialogue: 0,0:00:33.61,0:00:39.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}Hoka no dareka to chigaukara
-Dialogue: 0,0:00:38.10,0:00:39.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}Kono kimochi o tsutaetai
-Dialogue: 0,0:00:38.82,0:00:47.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}Nattoku sasenakya
-Dialogue: 0,0:00:46.12,0:00:49.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}Kesshite yuzuranai
+Dialogue: 0,0:00:33.98,0:00:39.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Hoka {\k26}no {\k56}dareka {\k48}to {\k224}chigaukara
+Dialogue: 0,0:00:38.16,0:00:44.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k163}Kono {\k84}kimochi {\k18}o {\k234}tsutaetai
+Dialogue: 0,0:00:43.70,0:00:47.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Na{\k24}tto{\k17}ku {\k54}sa{\k44}se{\k28}na{\k48}kya
+Dialogue: 0,0:00:46.49,0:00:49.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Ke{\k19}sshi{\k11}te {\k20}yu{\k41}zu{\k41}ra{\k74}nai
 Dialogue: 0,0:00:48.63,0:00:52.23,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}Shitsubō o sasenai
 Dialogue: 0,0:00:51.13,0:00:55.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}Kesshite okizari ni wa shinai
 Dialogue: 0,0:00:54.60,0:01:01.04,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}Kesshite nakasenai
