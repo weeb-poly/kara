@@ -6,15 +6,14 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home.mp4",
-      "audiogain": -1.22,
+      "filename": "27c2c99d-3a3c-4f1d-a425-ddcda1956f84.mp4",
       "loudnorm": "-16.06,-6.08,3.10,-26.10,-0.72",
       "filesize": 12322092,
       "duration": 89,
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home.ass",
+          "filename": "674998ff-4f44-4c44-af37-9e387ee101ac.ass",
           "default": true,
           "version": "Default"
         }
@@ -27,6 +26,7 @@
     "kid": "674998ff-4f44-4c44-af37-9e387ee101ac",
     "modified_at": "2022-09-15T18:52:36.736Z",
     "repository": "kara.wpi.moe",
+    "songname": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -76,7 +76,6 @@
       "qro": "Ouchi ni Kaeritai"
     },
     "titles_default_language": "eng",
-    "title": "Wanna Go Home",
     "year": 2017
   }
 }

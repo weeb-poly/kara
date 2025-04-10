@@ -5,20 +5,19 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "ENG - League of Legends - GAME PC MV - K DA - POP STARS.mp4",
-      "audiogain": -8.64,
-      "loudnorm": "-7.72,1.36,7.50,-18.02,-0.91",
-      "filesize": 64434198,
-      "duration": 202,
       "default": true,
+      "duration": 202,
+      "filename": "ce2c947f-3ef5-4bdb-860d-b2c620192c03.mp4",
+      "filesize": 64434198,
+      "loudnorm": "-7.72,1.36,7.50,-18.02,-0.91",
       "lyrics": [
         {
-          "filename": "ENG - League of Legends - GAME PC MV - K DA - POP STARS.ass",
           "default": true,
+          "filename": "d8e974c6-313e-46ff-b563-e9838ccfdc82.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Default"
     }
   ],
   "data": {
@@ -27,6 +26,7 @@
     "kid": "d8e974c6-313e-46ff-b563-e9838ccfdc82",
     "modified_at": "2022-09-15T18:54:18.284Z",
     "repository": "kara.wpi.moe",
+    "songname": "ENG - League of Legends - GAME PC MV - K DA - POP STARS",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb",
@@ -74,7 +74,6 @@
       "eng": "K/DA - POP/STARS"
     },
     "titles_default_language": "eng",
-    "title": "K/DA - POP/STARS",
     "year": 2017
   }
 }

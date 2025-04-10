@@ -6,15 +6,14 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "JPN - sweet ARMS - AUDIO - Invisible Date ~ Full Vers.mp3",
-      "audiogain": -11.41,
-      "loudnorm": "-6.15,-0.80,5.50,-16.41,-0.35",
-      "filesize": 11214584,
-      "duration": 273,
+      "filename": "6e46e77f-540c-4e82-b28a-69dd3f308abd.mp4",
+      "loudnorm": "-16.28,-1.79,4.40,-26.54,-0.25",
+      "filesize": 45609136,
+      "duration": 255,
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - sweet ARMS - AUDIO - Invisible Date ~ Full Vers.ass",
+          "filename": "6e46e77f-540c-4e82-b28a-69dd3f308abd.ass",
           "default": true,
           "version": "Default"
         }
@@ -22,17 +21,18 @@
     }
   ],
   "data": {
-    "created_at": "2022-01-05T01:45:09.059Z",
+    "created_at": "2021-09-06T19:11:00.131Z",
     "ignoreHooks": false,
-    "kid": "010a4a5d-2e44-4638-b6ce-66b7eaf92d03",
-    "modified_at": "2022-09-15T18:49:44.496Z",
+    "kid": "6e46e77f-540c-4e82-b28a-69dd3f308abd",
+    "modified_at": "2022-09-15T18:57:56.532Z",
     "repository": "kara.wpi.moe",
+    "songname": "JPN - Junko Ohashi - AMV - Telephone Number",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
@@ -41,20 +41,16 @@
         "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
       ],
       "singers": [
-        "d1b95792-c817-41d6-b91f-9aa70736a2e5"
+        "63777da2-4141-4a59-b72e-2e24dcfb1b2b"
       ],
       "songtypes": [
-        "42a262ae-acba-4ab5-a446-c5789c96c821"
-      ],
-      "versions": [
-        "c2143a7f-6970-450e-8a79-0302db9220a9"
+        "a6c79ce5-89ee-4d50-afe8-3abd7317f6c2"
       ]
     },
     "titles": {
-      "eng": "Invisible Date"
+      "eng": "Telephone Number"
     },
     "titles_default_language": "eng",
-    "title": "Invisible Date",
-    "year": 2015
+    "year": 1984
   }
 }

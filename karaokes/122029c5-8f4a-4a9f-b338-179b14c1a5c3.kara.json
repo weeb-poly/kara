@@ -5,20 +5,19 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "KOR - Lee Sun-hee - AMV - Fate.mp4",
-      "audiogain": -10.65,
-      "loudnorm": "-7.42,2.52,9.10,-17.66,-1.38",
-      "filesize": 34755211,
-      "duration": 263,
       "default": true,
+      "duration": 263,
+      "filename": "122029c5-8f4a-4a9f-b338-179b14c1a5c3.mp4",
+      "filesize": 34755211,
+      "loudnorm": "-7.42,2.52,9.10,-17.66,-1.38",
       "lyrics": [
         {
-          "filename": "KOR - Lee Sun-hee - AMV - Fate.ass",
           "default": true,
+          "filename": "122029c5-8f4a-4a9f-b338-179b14c1a5c3.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Default"
     }
   ],
   "data": {
@@ -27,6 +26,7 @@
     "kid": "122029c5-8f4a-4a9f-b338-179b14c1a5c3",
     "modified_at": "2022-09-15T18:27:57.740Z",
     "repository": "kara.wpi.moe",
+    "songname": "KOR - Lee Sun-hee - AMV - Fate",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -57,7 +57,6 @@
       "eng": "Fate"
     },
     "titles_default_language": "eng",
-    "title": "Fate",
     "year": 2010
   }
 }

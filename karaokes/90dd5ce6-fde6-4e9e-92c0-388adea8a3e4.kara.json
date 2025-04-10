@@ -5,20 +5,19 @@
   },
   "medias": [
     {
-      "version": "Ctrl+Alt+Del",
-      "filename": "JPN - Touhou - REMIX OT - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.mp4",
-      "audiogain": -6.34,
-      "loudnorm": "-9.21,2.38,1.90,-19.21,-0.33",
-      "filesize": 669509,
-      "duration": 39,
       "default": true,
+      "duration": 39,
+      "filename": "90dd5ce6-fde6-4e9e-92c0-388adea8a3e4.mp4",
+      "filesize": 669509,
+      "loudnorm": "-9.21,2.38,1.90,-19.21,-0.33",
       "lyrics": [
         {
-          "filename": "JPN - Touhou - REMIX OT - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers.ass",
           "default": true,
+          "filename": "90dd5ce6-fde6-4e9e-92c0-388adea8a3e4.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Ctrl+Alt+Del"
     }
   ],
   "data": {
@@ -28,6 +27,7 @@
     "kid": "90dd5ce6-fde6-4e9e-92c0-388adea8a3e4",
     "modified_at": "2022-09-15T18:42:11.823Z",
     "repository": "kara.wpi.moe",
+    "songname": "JPN - Touhou - REMIX OT - Fly Out! Bankikki (Casual Killer remix) ~ Ctrl Plus Alt Plus Del Vers",
     "tags": {
       "authors": [
         "90cbd7a9-d345-45d6-86c0-b38749034406"
@@ -72,7 +72,6 @@
       "eng": "Fly Out! Bankikki (Casual Killer remix) ~ Ctrl+Alt+Del Vers"
     },
     "titles_default_language": "eng",
-    "title": "Fly Out! Bankikki (Casual Killer remix) ~ Ctrl+Alt+Del Vers",
     "year": 2015
   }
 }

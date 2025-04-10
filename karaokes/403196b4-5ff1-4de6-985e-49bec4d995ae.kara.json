@@ -5,20 +5,19 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "CHI - League of Legends - GAME PC MV - K DA - MORE.mp4",
-      "audiogain": -3.39,
-      "loudnorm": "-13.49,-0.50,8.90,-23.78,-0.54",
-      "filesize": 122952064,
-      "duration": 231,
       "default": true,
+      "duration": 231,
+      "filename": "933a50ec-edc0-4126-bf09-036722d988f0.mp4",
+      "filesize": 122952064,
+      "loudnorm": "-13.49,-0.50,8.90,-23.78,-0.54",
       "lyrics": [
         {
-          "filename": "CHI - League of Legends - GAME PC MV - K DA - MORE.ass",
           "default": true,
+          "filename": "403196b4-5ff1-4de6-985e-49bec4d995ae.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Default"
     }
   ],
   "data": {
@@ -27,6 +26,7 @@
     "kid": "403196b4-5ff1-4de6-985e-49bec4d995ae",
     "modified_at": "2022-09-15T18:53:17.905Z",
     "repository": "kara.wpi.moe",
+    "songname": "CHI - League of Legends - GAME PC MV - K DA - MORE",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -77,7 +77,6 @@
       "eng": "K/DA - MORE"
     },
     "titles_default_language": "eng",
-    "title": "K/DA - MORE",
     "year": 2020
   }
 }

@@ -5,16 +5,15 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.mp4",
-      "audiogain": -0.35,
-      "loudnorm": "-17.02,-5.30,4.00,-27.14,-0.57",
-      "filesize": 67738761,
-      "duration": 248,
+      "version": "Flay! Remix",
+      "filename": "30d99089-17aa-464e-a7c0-773fdf5aca89.mp4",
+      "loudnorm": "-9.44,1.77,7.10,-19.49,-0.87",
+      "filesize": 89016892,
+      "duration": 228,
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - Caitlin Myers - MV - Never Gonna Give You Up ~ Cover Vers.ass",
+          "filename": "30d99089-17aa-464e-a7c0-773fdf5aca89.ass",
           "default": true,
           "version": "Default"
         }
@@ -22,12 +21,12 @@
     }
   ],
   "data": {
-    "comment": "Need to fill in Info",
-    "created_at": "2021-09-18T03:56:53.626Z",
+    "created_at": "2021-10-25T22:15:22.361Z",
     "ignoreHooks": false,
-    "kid": "be8e19ce-0e99-4a33-82d8-e9efab4e4d15",
-    "modified_at": "2022-09-15T18:56:28.985Z",
+    "kid": "30d99089-17aa-464e-a7c0-773fdf5aca89",
+    "modified_at": "2022-09-15T18:58:40.456Z",
     "repository": "kara.wpi.moe",
+    "songname": "ENG - KIRA - MV - Why Does a Heart Break question_mark ~ Flay! Remix ~ Cover Vers",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -38,27 +37,32 @@
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
       "langs": [
-        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
       ],
       "misc": [
         "718987af-3d3c-4e74-9d9e-3e63ef033ba5"
       ],
       "singers": [
-        "c3f0cc0d-bdd7-4c22-adc5-db0e5aec6c65"
+        "ad7ea241-f3eb-4919-a182-166d52fc72c5"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "ad7ea241-f3eb-4919-a182-166d52fc72c5"
       ],
       "versions": [
         "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c"
       ]
     },
     "titles": {
-      "eng": "Never Gonna Give You Up"
+      "eng": " Why Does a Heart Break? ~ Flay! Remix"
     },
     "titles_default_language": "eng",
-    "title": "Never Gonna Give You Up",
     "year": 2021
   }
 }

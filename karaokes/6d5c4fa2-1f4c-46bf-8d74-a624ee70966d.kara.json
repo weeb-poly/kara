@@ -5,20 +5,19 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "ENG - Rensselaer Polytechnic Institute - AUDIO - Here's to Old RPI.mp3",
-      "audiogain": -3.33,
-      "loudnorm": "-16.67,-0.19,10.80,-27.06,-0.90",
-      "filesize": 1385518,
-      "duration": 122,
       "default": true,
+      "duration": 122,
+      "filename": "6d5c4fa2-1f4c-46bf-8d74-a624ee70966d.mp3",
+      "filesize": 1385518,
+      "loudnorm": "-16.67,-0.19,10.80,-27.06,-0.90",
       "lyrics": [
         {
-          "filename": "ENG - Rensselaer Polytechnic Institute - AUDIO - Here's to Old RPI.ass",
           "default": true,
+          "filename": "6d5c4fa2-1f4c-46bf-8d74-a624ee70966d.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Default"
     }
   ],
   "data": {
@@ -27,6 +26,7 @@
     "kid": "6d5c4fa2-1f4c-46bf-8d74-a624ee70966d",
     "modified_at": "2022-09-15T18:44:18.391Z",
     "repository": "kara.wpi.moe",
+    "songname": "ENG - Rensselaer Polytechnic Institute - AUDIO - Here's to Old RPI",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -52,7 +52,6 @@
       "eng": "Here's to Old RPI"
     },
     "titles_default_language": "eng",
-    "title": "Here's to Old RPI",
     "year": 1897
   }
 }

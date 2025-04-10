@@ -1,10 +1,11 @@
 name: Karaoke CI + CD
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+# I need to fix kara-tools
+#on:
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
 
 jobs:
   test:

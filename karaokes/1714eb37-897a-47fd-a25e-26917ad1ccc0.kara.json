@@ -6,15 +6,14 @@
   "medias": [
     {
       "version": "TeddyLoid Alllies Remix",
-      "filename": "JPN - GigaP - MV - Otome Kaibou ~ TeddyLoid Alllies Remix ~ Cover Vers.mp4",
-      "audiogain": -11.99,
+      "filename": "1714eb37-897a-47fd-a25e-26917ad1ccc0.mp4",
       "loudnorm": "-5.21,3.68,6.90,-15.44,-1.11",
       "filesize": 108143721,
       "duration": 227,
       "default": true,
       "lyrics": [
         {
-          "filename": "JPN - GigaP - MV - Otome Kaibou ~ TeddyLoid Alllies Remix ~ Cover Vers.ass",
+          "filename": "1714eb37-897a-47fd-a25e-26917ad1ccc0.ass",
           "default": true,
           "version": "Default"
         }
@@ -27,6 +26,7 @@
     "kid": "1714eb37-897a-47fd-a25e-26917ad1ccc0",
     "modified_at": "2022-09-15T18:57:29.484Z",
     "repository": "kara.wpi.moe",
+    "songname": "JPN - GigaP - MV - Otome Kaibou ~ TeddyLoid Alllies Remix ~ Cover Vers",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -60,7 +60,6 @@
       "eng": "Otome Kaibou ~ TeddyLoid Alllies Remix"
     },
     "titles_default_language": "eng",
-    "title": "Otome Kaibou ~ TeddyLoid Alllies Remix",
     "year": 2020
   }
 }

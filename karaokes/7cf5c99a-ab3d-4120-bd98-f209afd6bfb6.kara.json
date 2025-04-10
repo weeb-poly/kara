@@ -6,15 +6,14 @@
   "medias": [
     {
       "version": "Default",
-      "filename": "ENG - League of Legends - GAME PC MV - K DA - THE BADDEST.mp4",
-      "audiogain": -2.93,
+      "filename": "4a6e2d27-1ed9-4464-b72a-6588f6add87e.mp4",
       "loudnorm": "-13.91,-2.73,5.30,-23.95,-0.11",
       "filesize": 73771613,
       "duration": 162,
       "default": true,
       "lyrics": [
         {
-          "filename": "ENG - League of Legends - GAME PC MV - K DA - THE BADDEST.ass",
+          "filename": "7cf5c99a-ab3d-4120-bd98-f209afd6bfb6.ass",
           "default": true,
           "version": "Default"
         }
@@ -27,6 +26,7 @@
     "kid": "7cf5c99a-ab3d-4120-bd98-f209afd6bfb6",
     "modified_at": "2022-09-15T18:48:33.076Z",
     "repository": "kara.wpi.moe",
+    "songname": "ENG - League of Legends - GAME PC MV - K DA - THE BADDEST",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb",
@@ -74,7 +74,6 @@
       "eng": "K/DA - THE BADDEST"
     },
     "titles_default_language": "eng",
-    "title": "K/DA - THE BADDEST",
     "year": 2020
   }
 }
