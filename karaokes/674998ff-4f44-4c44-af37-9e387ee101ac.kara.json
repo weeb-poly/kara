@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:01:25.000Z",
     "ignoreHooks": false,
     "kid": "674998ff-4f44-4c44-af37-9e387ee101ac",
-    "modified_at": "2025-04-10T22:11:48.182Z",
+    "modified_at": "2025-04-10T22:26:59.084Z",
     "repository": "kara.wpi.moe",
     "songname": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home ~ Kana Vers",
     "tags": {
@@ -32,7 +32,8 @@
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1",
+        "f2462778-f986-4844-a4b8-e1d3ccdb861b"
       ],
       "creators": [
         "2bf7a71d-d3fc-42ba-8aa0-a94d7ca3888c"
