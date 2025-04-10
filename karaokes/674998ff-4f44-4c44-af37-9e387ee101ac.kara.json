@@ -5,28 +5,28 @@
   },
   "medias": [
     {
-      "version": "Default",
-      "filename": "27c2c99d-3a3c-4f1d-a425-ddcda1956f84.mp4",
-      "loudnorm": "-16.06,-6.08,3.10,-26.10,-0.72",
-      "filesize": 12322092,
-      "duration": 89,
       "default": true,
+      "duration": 89,
+      "filename": "674998ff-4f44-4c44-af37-9e387ee101ac.mp4",
+      "filesize": 12322092,
+      "loudnorm": "-16.06,-6.08,3.10,-26.10,-0.72",
       "lyrics": [
         {
-          "filename": "674998ff-4f44-4c44-af37-9e387ee101ac.ass",
           "default": true,
+          "filename": "674998ff-4f44-4c44-af37-9e387ee101ac.ass",
           "version": "Default"
         }
-      ]
+      ],
+      "version": "Default"
     }
   ],
   "data": {
     "created_at": "2017-10-11T17:01:25.000Z",
     "ignoreHooks": false,
     "kid": "674998ff-4f44-4c44-af37-9e387ee101ac",
-    "modified_at": "2022-09-15T18:52:36.736Z",
+    "modified_at": "2025-04-10T22:11:48.182Z",
     "repository": "kara.wpi.moe",
-    "songname": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home",
+    "songname": "JPN - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Wanna Go Home ~ Kana Vers",
     "tags": {
       "authors": [
         "5690b59e-e9d1-4384-8a50-f0ff04996dfb"
@@ -68,6 +68,9 @@
       ],
       "songwriters": [
         "7df923b4-4429-4123-950a-50dede56b016"
+      ],
+      "versions": [
+        "12d21e9c-3427-4677-a5bd-1301a0f7358a"
       ]
     },
     "titles": {

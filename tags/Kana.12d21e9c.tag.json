@@ -1,0 +1,34 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "description": {
+      "eng": "Hard mode, karaokes with the Japanese alphabet",
+      "fre": "Hard mode, les karaokes avec l'alphabet japonais",
+      "ger": "Sehr schwer: Karaoke mit japanischem Alphabet",
+      "ita": "Modalità difficile, karaoke scritti in caratteri giapponesi.",
+      "pol": "Tryb trudny, karaoke z alfabetem japońskim",
+      "por": "Modo difícil, karaokês com o alfabeto japonês",
+      "tam": "கடின பயன்முறை, சப்பானிய எழுத்துக்களுடன் கரோக்ச்"
+    },
+    "i18n": {
+      "eng": "Kana",
+      "fre": "Kana",
+      "ger": "Kana",
+      "ita": "Kana",
+      "jpn": "カナ",
+      "pol": "Kana",
+      "por": "Kana",
+      "tam": "கனா"
+    },
+    "name": "Kana",
+    "repository": "kara.wpi.moe",
+    "tid": "12d21e9c-3427-4677-a5bd-1301a0f7358a",
+    "types": [
+      "14",
+      "versions"
+    ]
+  }
+}
