@@ -1,6 +1,6 @@
 name: Karaoke CI + CD
 
-# I need to fix kara-tools
+# kara-tools has been changed significantly
 #on:
 #  push:
 #    branches: [ main ]
